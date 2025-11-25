@@ -1,0 +1,51 @@
+id: zero-friction-capture-systems
+slug: zero-friction-capture-systems
+title: "Zero-Friction Capture Systems"
+summary: "Build capture systems for ideas, tasks, and information that require zero maintenance and work even when your executive functions are offline."
+level: beginner
+tags:
+  - systems
+  - capture
+  - organization
+  - productivity
+estimated_minutes: 40
+prerequisites:
+  - executive-function-challenges
+objectives:
+  - Design capture systems with zero friction for immediate use
+  - Separate capture from organization to reduce cognitive load
+  - Implement tools and workflows that don't require maintenance
+  - Build search-first systems instead of elaborate folder structures
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

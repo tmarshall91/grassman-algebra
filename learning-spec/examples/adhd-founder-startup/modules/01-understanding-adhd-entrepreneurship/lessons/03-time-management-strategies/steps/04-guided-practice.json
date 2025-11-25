@@ -1,0 +1,78 @@
+{
+  "id": "guided-practice",
+  "type": "exercise",
+  "estimated_minutes": 6,
+  "title": "Understanding Your Time Blindness",
+  "instructions": "Answer these questions to identify how time blindness affects your startup work.",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt_markdown": "**What is time blindness?**",
+      "type": "multiple-choice",
+      "options": [
+        "Being too busy to track time",
+        "The ADHD tendency to poorly perceive, estimate, and track time",
+        "Procrastinating on important tasks",
+        "Working too slowly on projects"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Time blindness is the ADHD tendency to poorly perceive, estimate, and track time.** It's a neurological difference in how ADHD brains process temporal information, not a behavioral choice or time management failure.",
+      "hint": "It's about perception, not behavior."
+    },
+    {
+      "id": "question-2",
+      "prompt_markdown": "**The 3X Rule suggests you should:**",
+      "type": "multiple-choice",
+      "options": [
+        "Work 3 times harder to meet deadlines",
+        "Multiply your time estimates by 3 to get realistic durations",
+        "Do each task 3 times to improve quality",
+        "Schedule 3 tasks per day maximum"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "The **3X Rule means multiplying your time estimates by 3** to account for ADHD optimism bias and time blindness. If you think something will take 1 hour, plan for 3 hours. This compensates for systematic underestimation.",
+      "hint": "It's about adjusting your estimates, not your work intensity."
+    },
+    {
+      "id": "question-3",
+      "prompt_markdown": "**For ADHD brains, time often exists in only two states:**",
+      "type": "multiple-choice",
+      "options": [
+        "Past and future",
+        "Work time and free time",
+        "NOW and NOT NOW",
+        "Fast and slow"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "ADHD brains experience **NOW and NOT NOW**—a deadline next week and a deadline next month both feel like NOT NOW until suddenly they're NOW (urgent). This time horizon blindness makes it hard to start tasks until they become emergencies.",
+      "hint": "Think about how deadlines feel: either urgent or not urgent, with little in between."
+    },
+    {
+      "id": "question-4",
+      "prompt_markdown": "**Visual timers and Pomodoro technique help with which type of time blindness?**",
+      "type": "multiple-choice",
+      "options": [
+        "Time perception blindness (losing track of time passing)",
+        "Time estimation blindness (underestimating task duration)",
+        "Time horizon blindness (NOW vs NOT NOW)",
+        "They don't help with time blindness"
+      ],
+      "answer_index": 0,
+      "explanation_markdown": "Visual timers help with **time perception blindness**—they make invisible time visible, helping you see how much time has actually passed. This is especially helpful during hyperfocus when time completely disappears.",
+      "hint": "These tools show you time passing in the moment."
+    },
+    {
+      "id": "question-5",
+      "prompt_markdown": "**True or False: With enough practice, you can overcome time blindness and develop accurate time perception.**",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**False!** Time blindness is a neurological difference in how ADHD brains process temporal information. You can't 'fix' it through practice, but you can completely compensate for it with external systems (timers, tracking, 3X rule, etc.).",
+      "hint": "Think about whether this is a skill or a brain wiring difference."
+    }
+  ]
+}

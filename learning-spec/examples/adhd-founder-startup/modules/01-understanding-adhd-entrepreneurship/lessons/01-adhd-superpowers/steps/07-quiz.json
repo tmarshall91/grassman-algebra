@@ -1,0 +1,91 @@
+{
+  "id": "quiz",
+  "type": "quiz",
+  "estimated_minutes": 6,
+  "title": "ADHD Superpowers Mastery Check",
+  "instructions": "This quiz verifies that you've achieved the lesson objectives. Answer each question to demonstrate your understanding of ADHD entrepreneurial advantages.",
+  "questions": [
+    {
+      "id": "quiz-1",
+      "prompt_markdown": "**Which of the following is NOT one of the 7 ADHD superpowers discussed in this lesson?**",
+      "type": "multiple-choice",
+      "options": [
+        "Hyperfocus",
+        "Perfect time management",
+        "Creative thinking and innovation",
+        "Crisis management"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Perfect time management** is actually a challenge for ADHD founders, not a superpower. The 7 superpowers are: hyperfocus, creative thinking, high risk tolerance, rapid decision-making, energy & enthusiasm, crisis management, and multidimensional thinking. We'll address time management challenges in the next lesson.",
+      "hint": "Think about what ADHD makes difficult, not easy."
+    },
+    {
+      "id": "quiz-2",
+      "prompt_markdown": "**Paul Orfalea, founder of Kinko's, couldn't sit still due to ADHD. How did he turn this into an advantage?**",
+      "type": "multiple-choice",
+      "options": [
+        "He forced himself to sit at a desk to appear professional",
+        "He walked through his stores constantly, spotting patterns in customer behavior",
+        "He worked from home to avoid embarrassment",
+        "He hired managers to run stores while he stayed away"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Orfalea **embraced his need for movement** by constantly walking through stores. This turned his 'inability to sit still' into a superpower—he spotted customer patterns, employee challenges, and opportunities that desk-bound managers missed. This led to innovations like 24-hour stores and self-service machines.",
+      "hint": "He didn't fight his ADHD—he built his management style around it."
+    },
+    {
+      "id": "quiz-3",
+      "prompt_markdown": "**What is the key difference between an importance-based and interest-based nervous system?**",
+      "type": "multiple-choice",
+      "options": [
+        "Importance-based systems work harder; interest-based systems are lazy",
+        "Importance-based systems focus on what matters; interest-based systems focus on what's engaging",
+        "Importance-based systems are better for entrepreneurship",
+        "There is no real difference—it's just semantics"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Importance-based systems focus on what 'should' matter; interest-based systems focus on what's engaging, novel, urgent, or challenging.** This is a fundamental difference in how ADHD brains operate. Understanding this helps you design your startup around what will naturally capture your focus, rather than fighting your brain's operating system.",
+      "hint": "It's about what naturally captures attention versus what 'should' be prioritized."
+    },
+    {
+      "id": "quiz-4",
+      "prompt_markdown": "**A founder with ADHD is choosing between two startup ideas: one in fintech (boring but profitable) and one in gaming (exciting but competitive). Based on this lesson, what's the most important consideration?**",
+      "type": "multiple-choice",
+      "options": [
+        "Always choose the more profitable market",
+        "Choose based on genuine interest—ADHD brains need engagement to activate superpowers",
+        "Choose the less competitive market for easier success",
+        "It doesn't matter—ADHD founders can succeed in any industry"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Genuine interest is critical for ADHD founders** because your superpowers (hyperfocus, creativity, energy) only activate when you're engaged. A boring but profitable market won't help if you can't focus on it. David Neeleman chose airlines because he was passionate about flying; that passion enabled his success. Match your venture to your interest-based nervous system.",
+      "hint": "Remember: ADHD brains have interest-based nervous systems."
+    },
+    {
+      "id": "quiz-5",
+      "prompt_markdown": "**What is the main lesson from successful ADHD entrepreneurs like Branson, Neeleman, and Orfalea?**",
+      "type": "multiple-choice",
+      "options": [
+        "They overcame their ADHD through discipline and medication",
+        "They hid their ADHD and pretended to be neurotypical",
+        "They weaponized their ADHD by building businesses around their cognitive strengths",
+        "They succeeded despite their ADHD by working twice as hard"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "The key pattern is that successful ADHD founders **weaponized their ADHD**—they built businesses that leveraged their cognitive strengths (creativity, hyperfocus, crisis management) while systematically addressing challenges (delegating boring tasks, building systems). They didn't overcome ADHD or work despite it; they succeeded *because* of it.",
+      "hint": "Look for the answer about working WITH ADHD, not against it or despite it."
+    },
+    {
+      "id": "quiz-6",
+      "prompt_markdown": "**True or False: ADHD entrepreneurs should force themselves to handle all business tasks equally, including boring administrative work, to be well-rounded founders.**",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**False!** This is fighting your interest-based nervous system and wastes your most valuable resource—your hyperfocus and creativity. Successful ADHD founders delegate, automate, or eliminate boring tasks early so they can spend time on what their brain does best. Paul Orfalea said it directly: 'I hire people who are smarter than me' for tasks outside his strengths.",
+      "hint": "Think about what Paul Orfalea and David Neeleman did with tasks they couldn't do well."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+id: marketing-and-sales
+title: "Marketing, Sales, and Customer Acquisition for ADHD Founders"
+description: "Leverage ADHD strengths in creativity, enthusiasm, and authentic communication to build effective marketing and sales processes that don't bore you to death."
+order: 4
+estimated_hours: 4
+objectives:
+  - Use ADHD creativity for standout marketing campaigns
+  - Build authentic sales approaches that leverage enthusiasm
+  - Create sustainable customer acquisition systems
+  - Manage follow-up and relationship-building with executive function challenges
+  - Turn hyperfocus into content creation superpowers
+lessons:
+  - id: creative-marketing
+    order: 1
+  - id: authentic-adhd-sales
+    order: 2
+  - id: content-creation-hyperfocus
+    order: 3
+  - id: followup-systems
+    order: 4

@@ -1,0 +1,91 @@
+{
+  "id": "quiz",
+  "type": "quiz",
+  "estimated_minutes": 6,
+  "title": "Time Management Mastery Check",
+  "instructions": "Verify your understanding of time blindness and time management strategies for ADHD founders.",
+  "questions": [
+    {
+      "id": "quiz-1",
+      "prompt_markdown": "**What is the primary reason ADHD founders experience time blindness?**",
+      "type": "multiple-choice",
+      "options": [
+        "They don't care about deadlines",
+        "They're too busy to track time",
+        "Neurological differences in how ADHD brains process temporal information",
+        "Poor time management education"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Time blindness is caused by **neurological differences in how ADHD brains process temporal information**. The internal 'clock' that tracks time passing is unreliable or absent in ADHD brains. It's not a behavioral or educational issue—it's brain wiring.",
+      "hint": "Think about the biological basis, not behavioral causes."
+    },
+    {
+      "id": "quiz-2",
+      "prompt_markdown": "**The 3X Rule suggests multiplying your time estimates by 3 because:**",
+      "type": "multiple-choice",
+      "options": [
+        "ADHD founders work 3 times slower than others",
+        "It accounts for systematic ADHD optimism bias and time estimation blindness",
+        "Every task has 3 phases: planning, execution, and review",
+        "You should triple-check your work for quality"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "The 3X Rule **accounts for systematic ADHD optimism bias and time estimation blindness**. ADHD brains consistently underestimate task duration—not because they work slowly, but because time perception is inaccurate. The 3X multiplier compensates for this predictable pattern.",
+      "hint": "It's about perception accuracy, not work speed."
+    },
+    {
+      "id": "quiz-3",
+      "prompt_markdown": "**Time horizon blindness refers to:**",
+      "type": "multiple-choice",
+      "options": [
+        "Not being able to see far ahead in planning",
+        "The ADHD experience of only NOW and NOT NOW, making distant deadlines feel abstract until they become urgent",
+        "Working too slowly to meet long-term goals",
+        "Difficulty switching between tasks at different time scales"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Time horizon blindness is **experiencing only NOW and NOT NOW**—a deadline next week and next month both feel like NOT NOW until suddenly they become NOW (urgent). This makes it extremely difficult to start tasks until they reach crisis urgency.",
+      "hint": "Think about how distant deadlines feel: concrete or abstract?"
+    },
+    {
+      "id": "quiz-4",
+      "prompt_markdown": "**Visual timers and Pomodoro technique primarily help with:**",
+      "type": "multiple-choice",
+      "options": [
+        "Working faster",
+        "Making invisible time visible during work sessions",
+        "Estimating how long future tasks will take",
+        "Creating urgency for distant deadlines"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "These tools **make invisible time visible**—they compensate for time perception blindness by providing external awareness of passing time. This is especially helpful during hyperfocus when internal time sense completely disappears.",
+      "hint": "What do these tools show you in real-time?"
+    },
+    {
+      "id": "quiz-5",
+      "prompt_markdown": "**Why is tracking actual time spent on tasks valuable for ADHD founders?**",
+      "type": "multiple-choice",
+      "options": [
+        "To prove you're working hard enough",
+        "To build a personal time database that replaces optimistic guessing with evidence-based estimates",
+        "To find ways to work faster",
+        "To compete with other founders on productivity"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Time tracking **builds a personal time database** that replaces unreliable intuition with evidence. When you know 'quick emails' actually take 45 minutes on average, you can give accurate estimates instead of optimistic guesses.",
+      "hint": "It's about using data to improve future estimates."
+    },
+    {
+      "id": "quiz-6",
+      "prompt_markdown": "**True or False: The best way to handle time blindness is to practice time awareness until your internal clock improves.**",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**False!** Time blindness is neurological—you can't 'practice' your way to better time perception. The solution is external systems (timers, tracking, structured scheduling) that compensate for time blindness, not attempting to fix it.",
+      "hint": "Can you fix neurological differences through practice?"
+    }
+  ]
+}

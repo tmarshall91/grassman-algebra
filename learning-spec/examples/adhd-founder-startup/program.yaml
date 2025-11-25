@@ -1,0 +1,39 @@
+id: adhd-founder-startup
+title: "ADHD Founder's Startup Blueprint"
+description: "A comprehensive guide to building a successful startup while working with your ADHD brain, not against it. Learn systems, strategies, and frameworks specifically designed for neurodivergent entrepreneurs."
+level: beginner
+tags:
+  - entrepreneurship
+  - startup
+  - adhd
+  - neurodivergent
+  - business
+  - productivity
+  - executive-function
+estimated_hours: 20
+prerequisites: []
+outcomes:
+  - Understand how ADHD affects entrepreneurship and turn it into a competitive advantage
+  - Build sustainable systems that work with ADHD strengths and accommodate challenges
+  - Develop and validate products using ADHD-friendly methodologies
+  - Create effective marketing and sales strategies that leverage hyperfocus
+  - Build and manage teams while working with executive function differences
+  - Maintain long-term business growth without burnout
+modules:
+  - id: understanding-adhd-entrepreneurship
+    order: 1
+  - id: adhd-friendly-systems
+    order: 2
+  - id: product-development
+    order: 3
+  - id: marketing-and-sales
+    order: 4
+  - id: team-and-growth
+    order: 5
+version: 1.0.0
+authors:
+  - name: "ADHD Founder Education Initiative"
+    email: "courses@adhdfounder.edu"
+    url: "https://adhdfounder.edu"
+created_at: "2025-11-25T00:00:00Z"
+updated_at: "2025-11-25T00:00:00Z"

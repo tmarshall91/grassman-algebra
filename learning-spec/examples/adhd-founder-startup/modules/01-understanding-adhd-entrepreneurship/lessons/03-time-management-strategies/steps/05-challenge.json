@@ -1,0 +1,80 @@
+{
+  "id": "challenge",
+  "type": "exercise",
+  "estimated_minutes": 7,
+  "title": "Applying Time Management Systems",
+  "instructions": "These scenarios require deeper thinking about how to design time systems for ADHD founders.",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt_markdown": "**Your product launch is in 2 months. It feels infinitely far away (NOT NOW), so you haven't started preparing. Which strategy best addresses this time horizon blindness?**",
+      "type": "multiple-choice",
+      "options": [
+        "Wait until it feels urgent, then work in crisis mode—that's when you do your best work",
+        "Force yourself to start immediately through willpower and discipline",
+        "Break the launch into weekly milestones with mini-deadlines and external accountability",
+        "Set multiple calendar reminders about the deadline"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Breaking into weekly milestones with mini-deadlines** transforms distant NOT NOW into recurring NOW. Each week becomes its own urgent mini-deadline, activating ADHD motivation without waiting for crisis mode. Option A leads to poor quality work, option B fights your brain wiring, and option D doesn't create actionable urgency.",
+      "hint": "How do you turn NOT NOW into NOW without waiting for a real crisis?"
+    },
+    {
+      "id": "question-2",
+      "prompt_markdown": "**You consistently tell customers 'I'll have this done by Friday' but it actually takes until the following Tuesday. They're losing trust. What's the root cause and solution?**",
+      "type": "multiple-choice",
+      "options": [
+        "Cause: Poor work ethic. Solution: Work harder and longer hours",
+        "Cause: Time estimation blindness. Solution: Use 3X rule and track actual completion times to build accurate estimates",
+        "Cause: Too many commitments. Solution: Just say no to everything",
+        "Cause: Lack of motivation. Solution: Find more exciting projects"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "This is **time estimation blindness**—systematically underestimating task duration. The **3X rule and time tracking** provide evidence-based estimates instead of optimistic guesses. Option A misdiagnoses the problem (it's perception, not effort), option C is impractical, and option D misses that this happens on exciting projects too.",
+      "hint": "This is about perception and estimation, not effort or motivation."
+    },
+    {
+      "id": "question-3",
+      "prompt_markdown": "**During hyperfocus coding sessions, you regularly work through lunch and miss afternoon meetings. You've tried 'being more aware' but it keeps happening. Best solution?**",
+      "type": "multiple-choice",
+      "options": [
+        "Stop hyperfocusing—it's unprofessional to miss meetings",
+        "Set visual timers and phone alarms 15 minutes before transitions, and schedule deep work blocks away from meetings",
+        "Try harder to maintain time awareness during hyperfocus",
+        "Only work on tasks that take less than 30 minutes so you don't lose track"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**External timers plus strategic scheduling** is the answer. You can't maintain time awareness during hyperfocus—that's not how hyperfocus works. Instead, use alarms to interrupt hyperfocus when needed, and schedule deep work blocks when losing track of time is acceptable. Option A throws away a superpower, option C is impossible, option D severely limits your work.",
+      "hint": "Hyperfocus is valuable—how do you keep it while adding time awareness?"
+    },
+    {
+      "id": "question-4",
+      "prompt_markdown": "**You have customer calls, development work, marketing tasks, and admin work. Everything gets jumbled and you lose time to constant context-switching. What system helps?**",
+      "type": "multiple-choice",
+      "options": [
+        "Multitask better to handle everything simultaneously",
+        "Use themed days or time blocks for different types of work to reduce context-switching",
+        "Work faster so you can fit everything in",
+        "Hire someone to handle everything you don't like"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Themed days or time blocks** reduce context-switching costs. Grouping similar work together (all calls on Monday, all dev work Tuesday/Wednesday, etc.) lets ADHD brains settle into each context instead of constantly switching. This makes time usage more efficient. Option A increases cognitive load, option C doesn't address the root issue, option D may not be feasible early on.",
+      "hint": "How can you group work to minimize mental transitions?"
+    },
+    {
+      "id": "question-5",
+      "prompt_markdown": "**After tracking your time for a month, you discover 'quick 15-minute tasks' actually take 45 minutes on average. How should you use this information?**",
+      "type": "multiple-choice",
+      "options": [
+        "Work faster to get tasks done in 15 minutes like you originally thought",
+        "Update your baseline estimates: when you think '15 minutes,' plan for 45 minutes",
+        "Feel ashamed about being slow and try harder",
+        "Ignore the data—your instincts will improve over time"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Update your baseline estimates with real data**. This is building a personal time database—replacing optimistic guessing with evidence. When you know '15-minute tasks' actually take 45 minutes, you can plan accordingly and give accurate estimates to others. Options A and C fight reality, option D wastes valuable data.",
+      "hint": "Use evidence to calibrate future estimates instead of relying on optimistic intuition."
+    }
+  ]
+}

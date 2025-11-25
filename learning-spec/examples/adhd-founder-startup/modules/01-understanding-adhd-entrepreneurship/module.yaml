@@ -1,0 +1,17 @@
+id: understanding-adhd-entrepreneurship
+title: "Understanding Your ADHD Brain in Entrepreneurship"
+description: "Discover how ADHD affects your entrepreneurial journey and learn to leverage your unique cognitive strengths while building effective strategies for common challenges."
+order: 1
+estimated_hours: 4
+objectives:
+  - Identify ADHD traits that provide competitive advantages in entrepreneurship
+  - Understand executive function challenges and their impact on business building
+  - Develop awareness of time blindness and implement practical time management strategies
+  - Create a personal ADHD profile to guide business decisions
+lessons:
+  - id: adhd-superpowers
+    order: 1
+  - id: executive-function-challenges
+    order: 2
+  - id: time-management-strategies
+    order: 3

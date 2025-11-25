@@ -1,0 +1,20 @@
+id: adhd-friendly-systems
+title: "Building ADHD-Friendly Systems and Processes"
+description: "Design startup systems, workflows, and processes that work with your ADHD brain instead of against it. Learn to create sustainable structures that don't require constant executive function."
+order: 2
+estimated_hours: 5
+objectives:
+  - Design capture systems that require zero maintenance
+  - Build decision-making frameworks that remove constant choices
+  - Create sustainable task management systems for ADHD brains
+  - Implement automation and delegation strategies for boring work
+  - Develop accountability structures that provide external motivation
+lessons:
+  - id: zero-friction-capture-systems
+    order: 1
+  - id: decision-frameworks
+    order: 2
+  - id: task-management-adhd
+    order: 3
+  - id: automation-delegation
+    order: 4

@@ -1,0 +1,53 @@
+id: content-creation-hyperfocus
+slug: content-creation-hyperfocus
+title: "Content Creation with Hyperfocus"
+summary: "Turn hyperfocus into a content creation superpower. Learn to batch create content during deep flow states and maintain consistency without daily effort."
+level: intermediate
+tags:
+  - content-creation
+  - hyperfocus
+  - marketing
+  - batch-processing
+estimated_minutes: 40
+prerequisites:
+  - hyperfocus-driven-development
+  - creative-marketing
+objectives:
+  - Use hyperfocus for batch content creation
+  - Create content systems that work with inconsistent energy
+  - Build content banks during high-creativity periods
+  - Schedule content to maintain consistency despite ADHD variability
+  - Leverage interest-driven content creation
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

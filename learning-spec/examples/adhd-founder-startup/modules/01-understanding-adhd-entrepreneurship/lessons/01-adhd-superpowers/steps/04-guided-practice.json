@@ -1,0 +1,78 @@
+{
+  "id": "guided-practice",
+  "type": "exercise",
+  "estimated_minutes": 7,
+  "title": "Identifying Your ADHD Strengths",
+  "instructions": "Answer these questions to start recognizing your ADHD superpowers in entrepreneurship. Choose the best answer for each question.",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt_markdown": "**Which ADHD trait allows entrepreneurs to work intensely on tasks they find engaging?**",
+      "type": "multiple-choice",
+      "options": [
+        "Time blindness",
+        "Hyperfocus",
+        "Working memory challenges",
+        "Emotional dysregulation"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Hyperfocus** is the ability to intensely concentrate on engaging tasks for extended periods. This is one of the most powerful ADHD advantages in entrepreneurship, allowing for deep work sessions and rapid product development when you're passionate about what you're building.",
+      "hint": "Think about what happens when you work on something you're really passionate about."
+    },
+    {
+      "id": "question-2",
+      "prompt_markdown": "**According to research mentioned in the lesson, what percentage of entrepreneurs have ADHD?**",
+      "type": "multiple-choice",
+      "options": [
+        "5% (same as general population)",
+        "10% (slightly higher)",
+        "29% (significantly higher)",
+        "50% (half of all entrepreneurs)"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Research shows that **29% of entrepreneurs have ADHD**, compared to just 5% of the general population. This significant overrepresentation suggests that ADHD traits provide real advantages in entrepreneurship.",
+      "hint": "The percentage is much higher than the general population but not quite half."
+    },
+    {
+      "id": "question-3",
+      "prompt_markdown": "**What type of nervous system do ADHD brains have?**",
+      "type": "multiple-choice",
+      "options": [
+        "Importance-based nervous system",
+        "Interest-based nervous system",
+        "Logic-based nervous system",
+        "Schedule-based nervous system"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "ADHD brains have an **interest-based nervous system**, not an importance-based one. This means they naturally focus on what's interesting, urgent, novel, or challenging—rather than what's 'important.' Understanding this is key to designing your startup around your strengths.",
+      "hint": "It's not about what's 'important' but what engages your attention."
+    },
+    {
+      "id": "question-4",
+      "prompt_markdown": "**Which successful entrepreneur founded JetBlue Airways and three other airlines?**",
+      "type": "multiple-choice",
+      "options": [
+        "Richard Branson",
+        "Paul Orfalea",
+        "David Neeleman",
+        "Ingvar Kamprad"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**David Neeleman** founded JetBlue Airways and multiple other airlines, leveraging his ADHD traits like creative problem-solving, crisis management, and serial entrepreneurship driven by his need for novelty.",
+      "hint": "This person founded multiple airlines and created the Customer Bill of Rights."
+    },
+    {
+      "id": "question-5",
+      "prompt_markdown": "**True or False: The most successful ADHD entrepreneurs try to become neurotypical and 'overcome' their ADHD.**",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**False!** The most successful ADHD entrepreneurs don't try to overcome their ADHD—they **weaponize it**. They build businesses that match their cognitive style, delegate their weaknesses, and double down on their ADHD strengths.",
+      "hint": "Think about the pattern we saw across all the successful founders."
+    }
+  ]
+}
