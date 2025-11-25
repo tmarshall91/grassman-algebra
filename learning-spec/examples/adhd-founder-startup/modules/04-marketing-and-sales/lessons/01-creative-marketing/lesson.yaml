@@ -1,0 +1,52 @@
+id: creative-marketing
+slug: creative-marketing
+title: "Creative Marketing: Your ADHD Advantage"
+summary: "Leverage ADHD creativity, pattern recognition, and unconventional thinking to build marketing that stands out and goes viral."
+level: intermediate
+tags:
+  - marketing
+  - creativity
+  - viral-marketing
+  - innovation
+estimated_minutes: 45
+prerequisites:
+  - adhd-superpowers
+objectives:
+  - Use ADHD pattern recognition to spot marketing opportunities
+  - Create unconventional campaigns that leverage your unique thinking
+  - Build marketing systems that stay interesting and engaging
+  - Turn hyperfocus into content production superpowers
+  - Design campaigns that work with short attention spans (yours and customers')
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

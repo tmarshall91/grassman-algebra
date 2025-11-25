@@ -1,0 +1,54 @@
+id: time-management-strategies
+slug: time-management-strategies
+title: "Time Management for Time-Blind Founders"
+summary: "Master time blindness—the ADHD tendency to lose track of time—and learn practical strategies for estimating, tracking, and managing time in your startup without fighting your brain."
+level: beginner
+tags:
+  - adhd
+  - time-management
+  - time-blindness
+  - productivity
+  - deadlines
+estimated_minutes: 45
+prerequisites:
+  - adhd-superpowers
+  - executive-function-challenges
+objectives:
+  - Understand what time blindness is and how it affects startup work
+  - Implement time estimation strategies that account for ADHD optimism
+  - Use external time awareness tools to compensate for poor time perception
+  - Create deadline systems that work with urgency-driven motivation
+  - Build sustainable scheduling practices for ADHD brains
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

@@ -1,0 +1,80 @@
+{
+  "id": "challenge",
+  "type": "exercise",
+  "estimated_minutes": 8,
+  "title": "Applying ADHD Strengths to Your Startup",
+  "instructions": "These questions require deeper thinking about how to apply ADHD superpowers to real entrepreneurial situations. Consider each scenario carefully.",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt_markdown": "**You're building a SaaS product but keep getting distracted by new feature ideas, side projects, and different business models. Which approach best leverages your ADHD while maintaining focus?**",
+      "type": "multiple-choice",
+      "options": [
+        "Force yourself to ignore all new ideas and stick to the original plan no matter what",
+        "Pursue every idea immediately as they come to you—your creativity is your strength",
+        "Create a 'future ideas' capture system and schedule monthly review sessions to evaluate pivots",
+        "Take medication to suppress your creativity and stay focused on one thing"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "The best approach is to **create a capture system and scheduled review process**. This honors your ADHD brain's pattern recognition and creativity (superpowers!) while preventing chaotic pivoting. You're not suppressing ideas or forcing rigid focus—you're channeling your divergent thinking into a structured process. This is 'working with your brain, not against it.'",
+      "hint": "Look for the answer that works WITH your ADHD creativity rather than fighting it or letting it run wild."
+    },
+    {
+      "id": "question-2",
+      "prompt_markdown": "**A major competitor just launched a feature you've been planning. Your ADHD brain kicks into high-pressure mode. How should you leverage this crisis situation?**",
+      "type": "multiple-choice",
+      "options": [
+        "Panic and abandon your startup—they've already won",
+        "Ignore them completely and stick to your original timeline",
+        "Use your crisis management superpower: hyperfocus for 48 hours on building a better version with a unique twist",
+        "Spend weeks analyzing their approach before making any decisions"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Option 3 leverages multiple ADHD superpowers**: crisis management (performing under pressure), hyperfocus (intense concentration when stakes are high), and creative thinking (adding a unique twist instead of copying). This is exactly the kind of high-stakes, novel situation where ADHD brains excel. The urgency provides natural stimulation, turning your 'emergency mode' from a bug into a feature.",
+      "hint": "Which option turns the high-pressure situation into an ADHD advantage rather than a problem?"
+    },
+    {
+      "id": "question-3",
+      "prompt_markdown": "**You've identified three potential startup ideas: (A) An accounting software for small businesses, (B) A creative tool for video editors, (C) A meditation app. You have ADHD. Which factor should MOST influence your choice?**",
+      "type": "multiple-choice",
+      "options": [
+        "Which market has the most money—profitability matters most",
+        "Which one you find genuinely interesting and engaging long-term",
+        "Which has the least competition—easier market entry",
+        "Which your investors or mentors think is best"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Your genuine interest matters MOST** because ADHD brains have interest-based nervous systems. If accounting bores you, you won't be able to hyperfocus, generate creative solutions, or maintain energy—no matter how profitable it is. The ADHD founders who succeed pick problems they're passionate about, ensuring their superpowers activate rather than fighting constant understimulation. Market size matters, but if you can't focus on it, you won't capture any of that market anyway.",
+      "hint": "Remember: ADHD brains have interest-based, not importance-based nervous systems."
+    },
+    {
+      "id": "question-4",
+      "prompt_markdown": "**Your startup requires both creative product development (exciting!) and administrative tasks like bookkeeping and customer support tickets (boring!). What's the best ADHD-friendly strategy?**",
+      "type": "multiple-choice",
+      "options": [
+        "Do everything yourself—founders need to be well-rounded",
+        "Delegate or automate the boring tasks early, even if it costs money",
+        "Use willpower and discipline to force yourself to do the boring work",
+        "Only work on exciting tasks and ignore administrative work entirely"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Delegate or automate boring tasks early** is the ADHD-founder strategy used by Paul Orfalea and others. Fighting your interest-based nervous system wastes energy and leads to burnout. Instead, invest in virtual assistants, automation tools, or contractors for routine work—freeing your ADHD brain to do what it does best: create, innovate, and solve hard problems. This isn't laziness; it's strategic resource allocation. Your hyperfocus on product is worth 10x more than your forced attention on admin work.",
+      "hint": "What did Paul Orfalea do? What did David Neeleman do? They built around their strengths."
+    },
+    {
+      "id": "question-5",
+      "prompt_markdown": "**You're in month 6 of your startup and the initial excitement is wearing off. Tasks feel routine. Your ADHD brain is understimulated and you're losing momentum. What should you do?**",
+      "type": "multiple-choice",
+      "options": [
+        "Push through with discipline—all entrepreneurs face this 'boring middle'",
+        "Quit and start a new, more exciting project",
+        "Inject novelty: tackle a new challenge, pivot to an exciting feature, or change your approach to reignite interest",
+        "Take ADHD medication to force yourself to stay focused on boring tasks"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Inject novelty strategically** is the key. Your ADHD brain needs stimulation, and that's not a character flaw—it's your operating system. Successful ADHD founders continuously find ways to make their work interesting: launching new features, experimenting with marketing, tackling technical challenges, or pivoting aspects of the business. This isn't 'giving up'—it's sustainable operation. The trick is injecting novelty *within* your current venture rather than abandoning it entirely. Think: 'How can I make this interesting again?' not 'How can I force myself to stay interested?'",
+      "hint": "You need novelty, but there's a way to get it without abandoning everything."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+id: shipping-and-completion
+slug: shipping-and-completion
+title: "Shipping and Completion: Getting to Done"
+summary: "Master the ADHD challenge of finishing and shipping products. Learn completion systems that overcome the 90% syndrome and actually launch."
+level: intermediate
+tags:
+  - shipping
+  - completion
+  - launching
+  - finishing
+estimated_minutes: 45
+prerequisites:
+  - hyperfocus-driven-development
+  - time-management-strategies
+objectives:
+  - Understand why ADHD brains struggle with the last 10%
+  - Build external accountability for completion
+  - Create artificial urgency for shipping deadlines
+  - Use "good enough" frameworks to overcome perfectionism
+  - Develop launch rituals that provide dopamine rewards
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

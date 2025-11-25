@@ -1,0 +1,50 @@
+id: adhd-superpowers
+slug: adhd-superpowers
+title: "ADHD Superpowers in Entrepreneurship"
+summary: "Discover the unique strengths ADHD brings to entrepreneurship, including hyperfocus, creativity, risk-taking, and adaptability. Learn how to leverage these traits to build a successful startup."
+level: beginner
+tags:
+  - adhd
+  - strengths
+  - entrepreneurship
+  - mindset
+estimated_minutes: 45
+prerequisites: []
+objectives:
+  - Identify at least 5 ADHD traits that provide entrepreneurial advantages
+  - Understand how hyperfocus can be channeled into productive business activities
+  - Recognize the connection between ADHD and entrepreneurial success
+  - Develop strategies to maximize ADHD strengths in your startup
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

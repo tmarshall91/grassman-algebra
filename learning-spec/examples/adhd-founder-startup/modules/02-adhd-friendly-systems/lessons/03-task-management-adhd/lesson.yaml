@@ -1,0 +1,53 @@
+id: task-management-adhd
+slug: task-management-adhd
+title: "Task Management for ADHD Brains"
+summary: "Build task management systems that work with interest-based nervous systems, not against them. Learn to make task lists that don't overwhelm and actually get used."
+level: intermediate
+tags:
+  - task-management
+  - productivity
+  - systems
+  - interest-based
+estimated_minutes: 50
+prerequisites:
+  - executive-function-challenges
+  - time-management-strategies
+objectives:
+  - Design task systems based on interest, not importance
+  - Implement the "Big Win" forcing function for daily focus
+  - Create task lists that don't overwhelm ADHD brains
+  - Use gamification and novelty to maintain engagement
+  - Build completion rituals that provide dopamine rewards
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

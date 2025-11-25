@@ -1,0 +1,18 @@
+id: product-development
+title: "Product Development with ADHD"
+description: "Build products using ADHD-friendly methodologies that leverage hyperfocus, creativity, and rapid iteration while managing feature creep and project completion challenges."
+order: 3
+estimated_hours: 4
+objectives:
+  - Channel hyperfocus into productive product development sprints
+  - Manage feature creep and shiny object syndrome
+  - Use ADHD strengths for rapid prototyping and iteration
+  - Build completion systems to actually ship products
+  - Leverage interest-driven development without losing focus
+lessons:
+  - id: hyperfocus-driven-development
+    order: 1
+  - id: managing-feature-creep
+    order: 2
+  - id: shipping-and-completion
+    order: 3

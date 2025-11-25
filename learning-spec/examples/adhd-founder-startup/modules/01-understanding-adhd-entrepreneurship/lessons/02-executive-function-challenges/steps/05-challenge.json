@@ -1,0 +1,80 @@
+{
+  "id": "challenge",
+  "type": "exercise",
+  "estimated_minutes": 9,
+  "title": "Designing External Systems for Your Startup",
+  "instructions": "These scenarios require you to apply executive function concepts to real startup situations. Choose the most effective solution for each ADHD founder.",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt_markdown": "**Alex runs a design agency and constantly forgets client feedback between the call and implementation. He's tried 'just remembering better' but it keeps happening. What's the best external system?**",
+      "type": "multiple-choice",
+      "options": [
+        "Schedule time after each call to review his mental notes",
+        "Ask clients to email him feedback instead of discussing on calls",
+        "Take notes directly in a shared doc during calls and review with client before ending",
+        "Record all calls and listen back later to capture what he missed"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Taking notes in a shared doc during calls** is the best solution. It captures information immediately (works around working memory), provides client accountability (they see what's being captured), and requires zero post-call processing. Options A and D rely on remembering or finding time later (executive functions!), and option B changes the client relationship unnecessarily. The best external system captures at the moment of creation with zero friction.",
+      "hint": "Look for the solution that captures information immediately without relying on memory or post-processing."
+    },
+    {
+      "id": "question-2",
+      "prompt_markdown": "**Samantha has 40 tasks in her todo list: 'update landing page, fix bug #23, call investor Sarah, research competitors, write blog post...' She stares at the list every morning, feels overwhelmed, and works on whatever seems interesting. Which system helps most?**",
+      "type": "multiple-choice",
+      "options": [
+        "Organize tasks into categories and subcategories",
+        "Use a forcing function: choose only ONE 'Big Win' each day before looking at anything else",
+        "Work harder to develop better prioritization skills through practice",
+        "Add priority labels (P1, P2, P3) to each task"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**The forcing function (ONE Big Win)** is most effective because it removes the need for constant prioritization decisions—a key executive function weakness. ADHD brains struggle with 'which task matters most?' asked 40 times. By forcing ONE choice at the start of the day, you eliminate decision fatigue. Priority labels (option D) still require deciding between P1 tasks. Categories (option A) don't solve the 'what do I work on now?' problem. Practice (option C) doesn't work—this is brain wiring, not skill.",
+      "hint": "Which option removes the need to constantly make prioritization decisions?"
+    },
+    {
+      "id": "question-3",
+      "prompt_markdown": "**Jordan schedules: 10:00 customer call, 11:00 investor meeting, 12:00 team standup, 1:00 design review. By 2:00 PM he's exhausted, behind on everything, and hasn't processed any information. What's the problem and solution?**",
+      "type": "multiple-choice",
+      "options": [
+        "Problem: Too many meetings. Solution: Cancel some meetings",
+        "Problem: No buffer time. Solution: Add 50% buffer blocks after each meeting for processing",
+        "Problem: Low energy. Solution: Drink more coffee and push through",
+        "Problem: Poor focus. Solution: Take ADHD medication before morning meetings"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "The problem is **no buffer time between meetings**. ADHD brains need time to process information (working memory), context switch (cognitive flexibility), and do immediate follow-up (task initiation). Without buffers, everything cascades. The solution is **50% buffer blocks**—not empty time, but processing time. While option A might help, it doesn't solve the core issue. Options C and D treat symptoms, not causes. The external system (buffers) compensates for multiple executive function challenges simultaneously.",
+      "hint": "ADHD brains need transition time between contexts for executive functions to process."
+    },
+    {
+      "id": "question-4",
+      "prompt_markdown": "**Maya needs to write investor updates monthly. It takes 3 hours but she procrastinates for weeks. When she finally sits down, she still can't start. She knows it's important but feels paralyzed. Best approach?**",
+      "type": "multiple-choice",
+      "options": [
+        "Remind herself how important investor updates are until motivation appears",
+        "Wait for the deadline to create urgency, then write it in a panic",
+        "Book a body doubling session (Focusmate) and commit to working on it with accountability",
+        "Break it into smaller tasks: 'outline,' 'metrics,' 'narrative'—surely that will help"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Body doubling with accountability** is the solution. This is classic task initiation failure—knowing something is important doesn't help ADHD brains start boring tasks. Option A (reminding yourself) doesn't work because ADHD isn't a motivation problem. Option B (deadline panic) works sometimes but causes stress and poor quality. Option D (breaking into subtasks) doesn't solve the core issue—she still can't start ANY of those subtasks. Body doubling provides external accountability and social context that helps ADHD brains initiate tasks that won't start otherwise.",
+      "hint": "Task initiation needs external accountability, not internal motivation or better task breakdown."
+    },
+    {
+      "id": "question-5",
+      "prompt_markdown": "**Carlos created an elaborate note-taking system with tags, folders, links, and templates. After 3 weeks, he stops using it because maintaining the organization is exhausting. What went wrong?**",
+      "type": "multiple-choice",
+      "options": [
+        "The system was too complicated—he needs a simpler organizational structure",
+        "He didn't try hard enough—he should push through and maintain it",
+        "The system required ongoing executive function (organization) to maintain—he needs a zero-maintenance system based on search and automatic properties",
+        "Note-taking systems don't work for ADHD founders—he should just rely on memory"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "The problem: **the system required ongoing executive function to maintain**. Elaborate organizational systems fail for ADHD founders because maintaining them requires the exact executive function (organization) that ADHD makes unreliable. The solution is **zero-maintenance systems**—simple capture with automatic properties and search-based retrieval. Think: 'dump everything in one place, tag minimally, find via search' instead of 'carefully file in the right folder structure.' Simpler categories (option A) still require maintenance. Pushing through (option B) ignores brain wiring. Memory (option D) definitely doesn't work.",
+      "hint": "What does the system require to maintain? If it requires the executive function you're struggling with, it will fail."
+    }
+  ]
+}

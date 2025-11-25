@@ -1,0 +1,52 @@
+id: authentic-adhd-sales
+slug: authentic-adhd-sales
+title: "Authentic ADHD Sales: Enthusiasm Over Scripts"
+summary: "Build sales approaches that leverage your natural ADHD enthusiasm, authenticity, and ability to read people—without boring scripts or traditional sales tactics."
+level: intermediate
+tags:
+  - sales
+  - authenticity
+  - enthusiasm
+  - communication
+estimated_minutes: 45
+prerequisites:
+  - adhd-superpowers
+objectives:
+  - Leverage ADHD enthusiasm and energy in sales conversations
+  - Build authentic sales approaches that don't feel "salesy"
+  - Use pattern recognition to read customer needs quickly
+  - Handle rejection with ADHD resilience
+  - Create follow-up systems that don't rely on working memory
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

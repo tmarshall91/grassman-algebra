@@ -1,0 +1,80 @@
+{
+  "id": "guided-practice",
+  "type": "exercise",
+  "estimated_minutes": 7,
+  "title": "Identifying Your Executive Function Challenges",
+  "instructions": "Answer these questions to recognize your specific executive function challenges and start thinking about solutions.",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "question-1",
+      "prompt_markdown": "**Which executive function is responsible for holding information in your mind while you use it?**",
+      "type": "multiple-choice",
+      "options": [
+        "Task initiation",
+        "Working memory",
+        "Planning and prioritization",
+        "Emotional regulation"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Working memory** holds information in your mind temporarily—like remembering why you opened your email app or keeping track of customer requests during a call. ADHD affects working memory significantly, which is why ADHD founders often forget things seconds after thinking of them.",
+      "hint": "Think about what helps you hold thoughts temporarily while you act on them."
+    },
+    {
+      "id": "question-2",
+      "prompt_markdown": "**You know you need to file your startup's quarterly taxes, but you keep finding other things to do instead. Which executive function challenge is this?**",
+      "type": "multiple-choice",
+      "options": [
+        "Working memory",
+        "Emotional regulation",
+        "Task initiation",
+        "Cognitive flexibility"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "This is **task initiation**—the difficulty starting tasks, especially boring or overwhelming ones. ADHD brains struggle to begin tasks that don't provide immediate dopamine rewards. The solution isn't willpower; it's external systems like body doubling or artificial urgency.",
+      "hint": "The problem isn't remembering to do it—it's actually starting to do it."
+    },
+    {
+      "id": "question-3",
+      "prompt_markdown": "**What is the core principle behind building external systems for executive function challenges?**",
+      "type": "multiple-choice",
+      "options": [
+        "Try harder to improve your internal executive functions through practice",
+        "Build external systems that compensate for unreliable executive functions",
+        "Take more medication to fix your brain",
+        "Accept that you can't be a successful founder with ADHD"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "The principle is to **build external systems that compensate for unreliable executive functions**. Just like glasses compensate for poor eyesight, external systems (capture tools, templates, accountability) compensate for executive function challenges. You don't need to 'fix' your brain—you need systems that work without relying on it.",
+      "hint": "Think about the glasses analogy—you don't fix your eyes, you use external tools."
+    },
+    {
+      "id": "question-4",
+      "prompt_markdown": "**In the example, Maria used a 'second brain' system to capture customer information. What made this system effective?**",
+      "type": "multiple-choice",
+      "options": [
+        "It required her to organize everything perfectly in the moment",
+        "It captured everything immediately without requiring organization",
+        "It relied on her remembering to take notes after the call",
+        "It used complex folder structures to keep everything organized"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "The system worked because it **captured everything immediately without requiring organization**. ADHD brains can't be trusted to organize in the moment, but they CAN type notes quickly. By separating capture (easy) from organization (can happen later), the system works even when executive functions are offline.",
+      "hint": "The key was removing friction and not requiring organization immediately."
+    },
+    {
+      "id": "question-5",
+      "prompt_markdown": "**Why do external systems work better than willpower for ADHD founders?**",
+      "type": "multiple-choice",
+      "options": [
+        "ADHD founders are lazy and need external motivation",
+        "External systems provide structure that doesn't rely on unreliable executive functions",
+        "Willpower works fine, but external systems are slightly more convenient",
+        "External systems are only needed until you build enough discipline"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "External systems work because they **provide structure that doesn't rely on unreliable executive functions**. ADHD isn't a willpower problem—it's a brain wiring difference. Executive functions are inconsistent in ADHD brains, so systems that depend on them will fail. External systems work consistently regardless of your brain state.",
+      "hint": "It's not about laziness or discipline—it's about brain wiring."
+    }
+  ]
+}

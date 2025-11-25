@@ -1,0 +1,53 @@
+id: hyperfocus-driven-development
+slug: hyperfocus-driven-development
+title: "Hyperfocus-Driven Development"
+summary: "Channel your ADHD hyperfocus superpower into productive development sprints. Learn to trigger, sustain, and exit hyperfocus strategically."
+level: intermediate
+tags:
+  - hyperfocus
+  - product-development
+  - flow-state
+  - deep-work
+estimated_minutes: 45
+prerequisites:
+  - adhd-superpowers
+  - time-management-strategies
+objectives:
+  - Understand what triggers hyperfocus and how to create those conditions
+  - Design development sprints around hyperfocus capabilities
+  - Use time-boxing to make hyperfocus productive, not destructive
+  - Build exit strategies to prevent getting stuck in endless sessions
+  - Leverage interest-driven development while maintaining product focus
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

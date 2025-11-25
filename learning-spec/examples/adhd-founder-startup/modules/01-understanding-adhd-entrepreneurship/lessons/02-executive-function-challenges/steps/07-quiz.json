@@ -1,0 +1,105 @@
+{
+  "id": "quiz",
+  "type": "quiz",
+  "estimated_minutes": 7,
+  "title": "Executive Function Mastery Check",
+  "instructions": "Verify your understanding of executive functions and external systems. These questions test whether you've achieved the lesson objectives.",
+  "questions": [
+    {
+      "id": "quiz-1",
+      "prompt_markdown": "**Executive functions are cognitive processes located primarily in which part of the brain?**",
+      "type": "multiple-choice",
+      "options": [
+        "Hippocampus (memory center)",
+        "Amygdala (emotion center)",
+        "Prefrontal cortex (management center)",
+        "Cerebellum (motor control)"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Executive functions are located in the **prefrontal cortex**, which acts as the brain's 'CEO' or management system. ADHD affects this region and dopamine regulation, which is why executive functions work inconsistently in ADHD brains. Understanding this biological basis helps ADHD founders recognize that executive function challenges aren't character flaws—they're brain wiring differences.",
+      "hint": "Think about which brain region is responsible for planning, organizing, and managing tasks."
+    },
+    {
+      "id": "quiz-2",
+      "prompt_markdown": "**Which statement best describes the relationship between executive functions and ADHD?**",
+      "type": "multiple-choice",
+      "options": [
+        "People with ADHD have no executive functions at all",
+        "ADHD makes executive functions unreliable—they work sometimes but not consistently",
+        "Executive functions work fine in ADHD; the problem is just laziness",
+        "ADHD only affects one executive function: attention"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**ADHD makes executive functions unreliable—they work sometimes but not consistently.** This is the ADHD paradox: you can hyperfocus for 12 hours on interesting work but can't focus 10 minutes on boring tasks. Executive functions activate when there's sufficient dopamine (from interest, urgency, novelty, or challenge) but go offline otherwise. This inconsistency is why external systems are essential—they work regardless of your brain state.",
+      "hint": "Think about the paradox—why can you sometimes focus intensely and sometimes not at all?"
+    },
+    {
+      "id": "quiz-3",
+      "prompt_markdown": "**You create a detailed note-taking system with folders, tags, cross-references, and templates. Three weeks later you've stopped using it. What's the most likely reason?**",
+      "type": "multiple-choice",
+      "options": [
+        "You're too lazy to maintain it",
+        "The system required ongoing executive function (organization) to maintain",
+        "Note-taking systems never work for entrepreneurs",
+        "You chose the wrong note-taking app"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "The system failed because it **required ongoing executive function to maintain**. Elaborate organizational systems demand continuous organization, categorization, and maintenance—exactly the executive functions that ADHD makes unreliable. The solution is zero-maintenance systems: simple capture, automatic properties, and search-based retrieval. The tool doesn't matter; the system design does.",
+      "hint": "What does maintaining this system require? If it requires the executive function you struggle with, it will fail."
+    },
+    {
+      "id": "quiz-4",
+      "prompt_markdown": "**The 'Buffer Block' method helps with which executive function challenge?**",
+      "type": "multiple-choice",
+      "options": [
+        "Task initiation—starting boring tasks",
+        "Time management—accounting for time blindness and transition time",
+        "Emotional regulation—managing setbacks",
+        "Working memory—remembering information"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Buffer blocks primarily address **time management and time blindness**. ADHD founders notoriously underestimate how long tasks take and need transition time between contexts. Adding 50% buffers accounts for meetings running long, provides processing time for working memory, and allows cognitive flexibility for context switching. This prevents the cascade of being constantly late and overwhelmed.",
+      "hint": "Think about what happens when you schedule back-to-back meetings without breaks."
+    },
+    {
+      "id": "quiz-5",
+      "prompt_markdown": "**Body doubling (working alongside someone else) primarily helps with which challenge?**",
+      "type": "multiple-choice",
+      "options": [
+        "Working memory",
+        "Task initiation",
+        "Time estimation",
+        "Cognitive flexibility"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Body doubling primarily helps with **task initiation**—the difficulty starting tasks, especially boring ones. The social context and external accountability activate ADHD brains in ways that internal motivation can't. Knowing someone is watching creates just enough pressure to overcome the task initiation barrier without triggering anxiety. This is why services like Focusmate are so effective for ADHD founders.",
+      "hint": "What's the hardest part—starting the task or doing it once you've begun?"
+    },
+    {
+      "id": "quiz-6",
+      "prompt_markdown": "**True or False: The goal of external systems is to eventually 'fix' your executive functions so you don't need the systems anymore.**",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**False!** External systems aren't temporary training wheels—they're permanent compensations for brain wiring differences. The goal isn't to 'fix' executive functions and become neurotypical. The goal is to build systems that work so well that executive function weaknesses become irrelevant. Just like someone with poor eyesight doesn't try to 'fix' their eyes and stop wearing glasses—they just wear glasses forever. External systems are your cognitive glasses.",
+      "hint": "Think about the glasses analogy—is the goal to eventually not need glasses?"
+    },
+    {
+      "id": "quiz-7",
+      "prompt_markdown": "**What makes a good external system for ADHD founders?**",
+      "type": "multiple-choice",
+      "options": [
+        "Complex and comprehensive to handle every situation",
+        "Requires daily discipline and maintenance to work properly",
+        "Captures immediately, requires zero maintenance, removes decisions, works in low-energy states",
+        "Motivational reminders to help you try harder"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Good systems: **capture immediately, require zero maintenance, remove decisions, and work in low-energy states**. They must function when executive functions are offline—which means removing friction, automating choices, and not depending on memory or organization. Complex systems (option A) and high-maintenance systems (option B) fail. Motivational reminders (option D) don't work because ADHD isn't a motivation problem.",
+      "hint": "The system must work when you have zero executive function available."
+    }
+  ]
+}

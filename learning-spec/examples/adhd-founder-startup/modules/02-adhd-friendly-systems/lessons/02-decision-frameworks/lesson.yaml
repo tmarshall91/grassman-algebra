@@ -1,0 +1,52 @@
+id: decision-frameworks
+slug: decision-frameworks
+title: "Decision Frameworks That Remove Constant Choices"
+summary: "Create decision-making frameworks and rules that eliminate decision fatigue by pre-committing to choices when you're calm and rational."
+level: intermediate
+tags:
+  - decision-making
+  - frameworks
+  - automation
+  - executive-function
+estimated_minutes: 45
+prerequisites:
+  - executive-function-challenges
+  - zero-friction-capture-systems
+objectives:
+  - Build pre-committed decision rules for recurring situations
+  - Create if-then frameworks that automate routine choices
+  - Design prioritization systems that work without constant evaluation
+  - Implement forcing functions to simplify complex decisions
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    order: 4
+    difficulty: easy
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    order: 5
+    difficulty: medium
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

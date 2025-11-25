@@ -1,0 +1,18 @@
+id: team-and-growth
+title: "Team Building and Sustainable Growth"
+description: "Build and lead teams as an ADHD founder, delegate effectively, maintain sustainable growth, and avoid burnout while scaling your startup."
+order: 5
+estimated_hours: 3
+objectives:
+  - Hire for your ADHD weaknesses and leverage your strengths
+  - Communicate effectively with neurotypical team members
+  - Delegate boring tasks without guilt
+  - Build sustainable growth systems that don't require constant firefighting
+  - Prevent ADHD founder burnout patterns
+lessons:
+  - id: hiring-for-weaknesses
+    order: 1
+  - id: leading-with-adhd
+    order: 2
+  - id: sustainable-growth
+    order: 3
