@@ -1,0 +1,74 @@
+{
+  "id": "quiz",
+  "type": "quiz",
+  "estimated_minutes": 6,
+  "title": "Knowledge Check Quiz",
+  "instructions": "Test your understanding of Supabase fundamentals. This quiz verifies that you've met the lesson objectives.",
+  "questions": [
+    {
+      "id": "quiz-1",
+      "prompt_markdown": "What is Supabase's primary database technology?",
+      "type": "multiple-choice",
+      "options": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Firebase Firestore"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Supabase uses **PostgreSQL**, a powerful open-source relational database. This is one of its key differentiators from Firebase (which uses Firestore, a NoSQL database). PostgreSQL provides ACID compliance, complex queries, joins, and features like Row Level Security."
+    },
+    {
+      "id": "quiz-2",
+      "prompt_markdown": "Which of the following best describes Supabase's approach to API generation?",
+      "type": "multiple-choice",
+      "options": [
+        "You must manually write API endpoints for each database table",
+        "APIs are automatically generated based on your database schema",
+        "Supabase doesn't provide APIs; you use SQL directly",
+        "APIs are generated but require GraphQL knowledge to use"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Supabase **automatically generates REST APIs** based on your database schema using PostgREST. As soon as you create a table, you can query it through the Supabase client without writing any API code. GraphQL is also available as an option, but the primary REST API requires no special knowledge beyond basic JavaScript."
+    },
+    {
+      "id": "quiz-3",
+      "prompt_markdown": "What does Row Level Security (RLS) allow you to do?",
+      "type": "multiple-choice",
+      "options": [
+        "Encrypt sensitive data in specific rows",
+        "Control which users can access which rows at the database level",
+        "Improve query performance for large tables",
+        "Automatically backup important rows"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Row Level Security (RLS)** is a PostgreSQL feature that controls data access at the database level. You write SQL policies that define which users can see, insert, update, or delete which rows. This means security is enforced by the database itself, independent of your application code, making it much more reliable and secure."
+    },
+    {
+      "id": "quiz-4",
+      "prompt_markdown": "Which of these is NOT a core service provided by Supabase?",
+      "type": "multiple-choice",
+      "options": [
+        "Authentication",
+        "Real-time subscriptions",
+        "Email marketing campaigns",
+        "Object storage"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Supabase provides five core services: **Database, Authentication, Storage, Real-time, and Edge Functions**. Email marketing is not one of them. While you could build email features using Edge Functions and external services (like SendGrid or Resend), Supabase doesn't provide email marketing as a built-in service."
+    },
+    {
+      "id": "quiz-5",
+      "prompt_markdown": "What is a key benefit of Supabase being open source?",
+      "type": "multiple-choice",
+      "options": [
+        "It's completely free for unlimited users",
+        "You can self-host and avoid vendor lock-in",
+        "It works without internet connectivity",
+        "It doesn't require any programming knowledge"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Being **open source** means you have access to all the source code and can **self-host Supabase** if needed. This prevents vendor lock-in—if you ever need to move away from Supabase's hosted platform, you can run your own instance. While Supabase has a generous free tier, it's not unlimited (you pay for resources as you scale). You still need programming knowledge to build applications, and it does require internet connectivity for the hosted version."
+    }
+  ]
+}

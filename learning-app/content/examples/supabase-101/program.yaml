@@ -1,0 +1,29 @@
+id: supabase-101
+title: "Supabase 101"
+description: "Master the fundamentals of Supabase - the open-source Firebase alternative. Learn to build full-stack applications with authentication, databases, storage, and real-time features. Perfect for developers looking to rapidly build and scale modern web applications."
+level: beginner
+tags:
+  - supabase
+  - backend
+  - database
+  - postgresql
+  - authentication
+  - real-time
+estimated_hours: 15
+prerequisites:
+  - basic-javascript
+  - basic-web-development
+  - basic-sql
+outcomes:
+  - "Set up and configure Supabase projects for production use"
+  - "Implement secure authentication and authorization patterns"
+  - "Design and query PostgreSQL databases using Supabase"
+  - "Build real-time features using Supabase subscriptions"
+  - "Manage file storage and CDN delivery with Supabase Storage"
+  - "Deploy full-stack applications using Supabase as the backend"
+modules:
+  - id: getting-started
+    order: 1
+version: "1.0.0"
+created_at: "2025-01-25T00:00:00Z"
+updated_at: "2025-01-25T00:00:00Z"

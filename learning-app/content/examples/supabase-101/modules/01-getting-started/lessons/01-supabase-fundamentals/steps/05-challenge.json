@@ -1,0 +1,52 @@
+{
+  "id": "challenge",
+  "type": "exercise",
+  "estimated_minutes": 8,
+  "title": "Challenge Problems",
+  "instructions": "These questions require deeper thinking about Supabase concepts and how they apply to real-world scenarios.",
+  "difficulty": "challenge",
+  "questions": [
+    {
+      "id": "ch-1",
+      "prompt_markdown": "You're building a social media app where users can create posts and comment on other users' posts. Using Supabase, how would you design the database security?\n\n**Requirements:**\n- Users can create their own posts\n- Users can edit/delete only their own posts\n- Anyone (authenticated) can view all posts\n- Anyone can comment on any post\n- Users can only delete their own comments\n\nWhich approach best implements this with Supabase?",
+      "type": "multiple-choice",
+      "options": [
+        "Use application-level checks in your frontend code to control who can edit/delete",
+        "Create Row Level Security policies for each table that enforce these rules at the database level",
+        "Store all data in one table and use a 'permissions' JSON column",
+        "Only allow database access from server-side code with custom authentication"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Option 2 is correct.** You should create Row Level Security (RLS) policies for your `posts` and `comments` tables. For example:\n\n```sql\n-- Posts: anyone can read\nCREATE POLICY \"Anyone can view posts\"\n  ON posts FOR SELECT\n  USING (true);\n\n-- Posts: users can create with their user_id\nCREATE POLICY \"Users can create posts\"\n  ON posts FOR INSERT\n  WITH CHECK (auth.uid() = user_id);\n\n-- Posts: users can update their own\nCREATE POLICY \"Users can update own posts\"\n  ON posts FOR UPDATE\n  USING (auth.uid() = user_id);\n```\n\nThis is the most secure approach because:\n- Security is enforced at the database level, not in easily-bypassed frontend code\n- It works regardless of which client or API accesses the database\n- It's declarative and easy to understand\n- It leverages PostgreSQL's battle-tested security features\n\nOption 1 (frontend checks) is insecure—anyone can bypass frontend code. Option 3 doesn't leverage Supabase's built-in features. Option 4 defeats the purpose of using Supabase.",
+      "hint": "Think about where security should be enforced for maximum protection"
+    },
+    {
+      "id": "ch-2",
+      "prompt_markdown": "A startup is deciding between Supabase and building a traditional custom backend with Node.js + Express + PostgreSQL. \n\n**Their requirements:**\n- MVP needed in 2 months\n- Team of 3 developers (2 frontend, 1 full-stack)\n- Standard CRUD operations with authentication\n- Real-time notifications for certain events\n- May need to scale to millions of users eventually\n- Budget conscious but can pay for managed services\n\nWhat's the best recommendation?",
+      "type": "multiple-choice",
+      "options": [
+        "Build custom backend - you always need full control for scaling",
+        "Use Supabase for MVP, then migrate to custom backend before scaling",
+        "Start with Supabase and scale with it, only migrate if specific needs arise",
+        "Build custom backend from day one to avoid migration costs later"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Option 3 is the best choice** for this scenario. Here's why:\n\n**For the MVP phase:**\n- Supabase will save 4-6 weeks of development time (authentication, API setup, real-time, infrastructure)\n- With a small team, velocity matters more than theoretical flexibility\n- Supabase handles security, scaling, and infrastructure out of the box\n\n**For scaling:**\n- Supabase can handle millions of users (it's built on PostgreSQL and scales horizontally)\n- Companies like Replicate and Vercel use Supabase in production at scale\n- You only pay for what you use\n\n**If you eventually need to migrate:**\n- Because Supabase is open source and uses standard PostgreSQL, migration is straightforward\n- You're not locked into proprietary tech\n- Most companies never need to migrate\n\n**Why other options are wrong:**\n- Option 1: Premature optimization. Most scaling challenges can be solved with Supabase\n- Option 2: Assumes migration is inevitable, which wastes time and money\n- Option 4: Burning 6 weeks on infrastructure before validating the product is risky\n\n**The principle:** Start simple, scale as needed, only add complexity when actual requirements demand it.",
+      "hint": "Consider time-to-market, team size, and whether scaling concerns are real or hypothetical"
+    },
+    {
+      "id": "ch-3",
+      "prompt_markdown": "You're reviewing code for a Supabase application. A developer wrote this function to get a user's profile:\n\n```javascript\nconst getProfile = async (userId) => {\n  const { data } = await supabase\n    .from('profiles')\n    .select('*')\n    .eq('id', userId)\n  \n  return data[0]\n}\n```\n\nThe `profiles` table has RLS enabled. What security concern exists with this code?",
+      "type": "multiple-choice",
+      "options": [
+        "No security concerns - RLS will prevent unauthorized access",
+        "The function doesn't check if the user is authenticated before querying",
+        "Using .eq('id', userId) is vulnerable to SQL injection",
+        "The function should use auth.uid() instead of accepting userId as a parameter"
+      ],
+      "answer_index": 3,
+      "explanation_markdown": "**Option 4 identifies the real issue.** While RLS will prevent unauthorized access (assuming policies are set up correctly), there's a design problem:\n\n**The Problem:**\nBy accepting `userId` as a parameter, the function allows the caller to request ANY user's profile. The code is trusting the caller to provide the correct userId.\n\n**Better approach:**\n```javascript\nconst getMyProfile = async () => {\n  const { data } = await supabase\n    .from('profiles')\n    .select('*')\n    .eq('id', auth.uid()) // Use the authenticated user's ID\n  \n  return data[0]\n}\n```\n\nOr, if the RLS policy is written correctly (only allowing users to see their own profile):\n\n```javascript\nconst getMyProfile = async () => {\n  const { data } = await supabase\n    .from('profiles')\n    .select('*')\n    .single() // RLS will automatically filter to current user\n  \n  return data\n}\n```\n\n**Why other options are wrong:**\n- Option 1: While RLS provides protection, the design is still flawed\n- Option 2: Supabase client automatically includes auth context; explicit checks are redundant\n- Option 3: Supabase's .eq() method uses parameterized queries and is safe from SQL injection\n\n**Key lesson:** Even with RLS, write code that follows the principle of least privilege. Don't accept parameters that could be used maliciously, even if RLS would block the attempt.",
+      "hint": "Think about the principle of least privilege and trust boundaries"
+    }
+  ]
+}

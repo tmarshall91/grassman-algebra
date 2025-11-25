@@ -1,0 +1,66 @@
+{
+  "id": "guided-practice",
+  "type": "exercise",
+  "estimated_minutes": 7,
+  "title": "Guided Practice",
+  "instructions": "Test your understanding of Supabase fundamentals. These questions will help reinforce the core concepts you've just learned.",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "gp-1",
+      "prompt_markdown": "What type of database does Supabase use at its core?",
+      "type": "multiple-choice",
+      "options": [
+        "MongoDB (NoSQL)",
+        "PostgreSQL (Relational)",
+        "MySQL (Relational)",
+        "Redis (Key-Value)"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Supabase uses **PostgreSQL**, a powerful open-source relational database. This is a key differentiator from Firebase, which uses a NoSQL database (Firestore). PostgreSQL gives you the full power of SQL, relational data modeling, and advanced features like Row Level Security.",
+      "hint": "Think about what makes Supabase different from Firebase"
+    },
+    {
+      "id": "gp-2",
+      "prompt_markdown": "Which of the following is NOT a core feature provided by Supabase?",
+      "type": "multiple-choice",
+      "options": [
+        "Authentication",
+        "Real-time subscriptions",
+        "Machine Learning APIs",
+        "Object Storage"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Supabase's five core features are: **Database, Authentication, Storage, Real-time, and Edge Functions**. While Supabase is incredibly powerful for backend needs, it doesn't provide machine learning APIs. You would integrate with separate ML services (like OpenAI, Hugging Face, etc.) for those capabilities, potentially using Edge Functions to call them.",
+      "hint": "Review the five main services Supabase provides"
+    },
+    {
+      "id": "gp-3",
+      "prompt_markdown": "What is Row Level Security (RLS) in Supabase?",
+      "type": "multiple-choice",
+      "options": [
+        "A way to encrypt individual rows in the database",
+        "A feature that allows you to control data access at the database level",
+        "A method for optimizing database query performance",
+        "A tool for backing up specific rows of data"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Row Level Security (RLS)** is a PostgreSQL feature that lets you control which rows users can access, modify, or delete at the database level. Instead of checking permissions in your application code, you write SQL policies that the database enforces automatically. This is much more secure because the security layer is independent of your application code. In our todo example, RLS ensures users can only see their own todos.",
+      "hint": "Think about how security was implemented in the todo app example"
+    },
+    {
+      "id": "gp-4",
+      "prompt_markdown": "What is a key advantage of Supabase being open source?",
+      "type": "multiple-choice",
+      "options": [
+        "It's always free for commercial use",
+        "You can see the code and self-host if needed, avoiding vendor lock-in",
+        "It automatically deploys to any cloud provider",
+        "It requires no authentication setup"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "Being **open source** means you have access to all the source code and can self-host Supabase if needed. This eliminates vendor lock-in—if Supabase's hosted service doesn't work for you in the future, you can run your own instance. You also benefit from community contributions and full transparency about how everything works. Note: While Supabase is open source, you still need to pay for hosted resources (database, storage, etc.) on their platform, or cover infrastructure costs if self-hosting.",
+      "hint": "Consider what 'open source' means for long-term project flexibility"
+    }
+  ]
+}
