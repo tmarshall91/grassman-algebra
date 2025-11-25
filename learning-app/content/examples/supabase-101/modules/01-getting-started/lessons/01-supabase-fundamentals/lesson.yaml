@@ -1,0 +1,50 @@
+id: supabase-fundamentals
+slug: supabase-fundamentals
+title: "Supabase Fundamentals"
+summary: "Discover what Supabase is and why it's becoming the go-to backend solution for modern applications. Learn about its core features, architecture, and how it can accelerate your development workflow."
+level: beginner
+tags:
+  - supabase
+  - backend-as-a-service
+  - postgresql
+  - open-source
+estimated_minutes: 45
+prerequisites: []
+objectives:
+  - "Explain what Supabase is and its core value proposition"
+  - "Identify the main features and services Supabase provides"
+  - "Understand how Supabase compares to other backend solutions"
+  - "Recognize when Supabase is the right choice for a project"
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    difficulty: easy
+    order: 4
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    difficulty: challenge
+    order: 5
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

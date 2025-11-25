@@ -1,0 +1,13 @@
+id: getting-started
+title: "Getting Started with Supabase"
+description: "Begin your journey with Supabase. Understand what Supabase is, how it works, and set up your first project. Learn the core concepts that power all Supabase features."
+order: 1
+estimated_hours: 3
+objectives:
+  - "Understand what Supabase is and how it compares to other backend solutions"
+  - "Set up a Supabase project and navigate the dashboard"
+  - "Learn the core architecture and key features of Supabase"
+  - "Connect a simple application to Supabase"
+lessons:
+  - id: supabase-fundamentals
+    order: 1
