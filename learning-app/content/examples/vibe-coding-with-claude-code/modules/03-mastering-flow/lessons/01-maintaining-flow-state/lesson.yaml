@@ -1,0 +1,52 @@
+id: maintaining-flow-state
+slug: maintaining-flow-state
+title: "Maintaining Flow State"
+summary: "Master the art of staying in flow for extended periods. Learn how to structure your vibe coding sessions to maximize focus, creativity, and productivity."
+level: intermediate
+tags:
+  - flow-state
+  - productivity
+  - focus
+  - best-practices
+estimated_minutes: 30
+prerequisites:
+  - what-is-vibe-coding
+  - effective-prompting
+objectives:
+  - "Identify the conditions that enable flow state"
+  - "Structure coding sessions to maintain deep focus"
+  - "Recognize and recover from flow interruptions"
+  - "Develop personal practices for consistent flow"
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example-1.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    difficulty: easy
+    order: 4
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    difficulty: challenge
+    order: 5
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

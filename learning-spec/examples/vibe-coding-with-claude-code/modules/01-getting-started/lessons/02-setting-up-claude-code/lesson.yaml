@@ -1,0 +1,51 @@
+id: setting-up-claude-code
+slug: setting-up-claude-code
+title: "Setting Up Claude Code"
+summary: "Learn how to install, configure, and optimize Claude Code for the best vibe coding experience. Set up your development environment to maximize flow state and productivity."
+level: beginner
+tags:
+  - setup
+  - configuration
+  - claude-code
+  - getting-started
+estimated_minutes: 40
+prerequisites:
+  - what-is-vibe-coding
+objectives:
+  - "Install Claude Code and configure authentication"
+  - "Understand Claude Code's key features and capabilities"
+  - "Configure your IDE and workspace for optimal vibe coding"
+  - "Run your first vibe coding session successfully"
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example-1.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    difficulty: easy
+    order: 4
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    difficulty: challenge
+    order: 5
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

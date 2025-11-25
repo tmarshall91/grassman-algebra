@@ -1,0 +1,50 @@
+id: what-is-vibe-coding
+slug: what-is-vibe-coding
+title: "What is Vibe Coding?"
+summary: "Explore the philosophy and practice of vibe coding. Understand how AI-assisted development with Claude Code creates a new paradigm for building software that prioritizes flow state, creativity, and joy."
+level: beginner
+tags:
+  - vibe-coding
+  - philosophy
+  - ai-assisted-development
+  - flow-state
+estimated_minutes: 35
+prerequisites: []
+objectives:
+  - "Define vibe coding and its core principles"
+  - "Explain how Claude Code enables the vibe coding experience"
+  - "Recognize the difference between traditional coding and vibe coding"
+  - "Identify situations where vibe coding is most effective"
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example-1.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    difficulty: easy
+    order: 4
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    difficulty: challenge
+    order: 5
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

@@ -1,0 +1,52 @@
+id: effective-prompting
+slug: effective-prompting
+title: "The Art of Effective Prompting"
+summary: "Learn how to communicate with Claude Code in ways that generate better code, faster. Master the techniques that turn good prompts into great results."
+level: intermediate
+tags:
+  - prompting
+  - communication
+  - best-practices
+  - productivity
+estimated_minutes: 35
+prerequisites:
+  - what-is-vibe-coding
+  - setting-up-claude-code
+objectives:
+  - "Write clear, specific prompts that get better results"
+  - "Use context effectively to guide AI suggestions"
+  - "Iterate on prompts to refine outputs"
+  - "Recognize and avoid common prompting pitfalls"
+canonical_flow:
+  pattern: "hook-concept-example-guided-practice-challenge-reflection-quiz"
+steps:
+  - id: hook
+    type: hook
+    file: steps/01-hook.md
+    order: 1
+  - id: concept
+    type: concept
+    file: steps/02-concept.md
+    order: 2
+  - id: example
+    type: example
+    file: steps/03-example-1.md
+    order: 3
+  - id: guided-practice
+    type: exercise
+    file: steps/04-guided-practice.json
+    difficulty: easy
+    order: 4
+  - id: challenge
+    type: exercise
+    file: steps/05-challenge.json
+    difficulty: challenge
+    order: 5
+  - id: reflection
+    type: reflection
+    file: steps/06-reflection.md
+    order: 6
+  - id: quiz
+    type: quiz
+    file: steps/07-quiz.json
+    order: 7

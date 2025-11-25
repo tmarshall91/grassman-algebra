@@ -1,0 +1,15 @@
+id: mastering-flow
+title: "Mastering the Flow State"
+description: "Learn to maintain deep focus and creative flow for extended coding sessions. Develop practices that maximize productivity, joy, and code quality while vibe coding."
+order: 3
+estimated_hours: 2
+objectives:
+  - "Recognize and enter flow state consistently"
+  - "Structure coding sessions for sustained focus"
+  - "Balance AI assistance with personal skill development"
+  - "Build sustainable vibe coding habits"
+lessons:
+  - id: maintaining-flow-state
+    order: 1
+  - id: best-practices
+    order: 2

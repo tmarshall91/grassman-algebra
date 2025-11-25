@@ -1,0 +1,15 @@
+id: advanced-techniques
+title: "Advanced Vibe Coding Techniques"
+description: "Master advanced techniques for effective collaboration with Claude Code. Learn powerful prompting strategies, task decomposition, iterative refinement, and handling complex refactoring scenarios."
+order: 2
+estimated_hours: 3
+objectives:
+  - "Write prompts that generate better code faster"
+  - "Break down complex features into vibe-friendly tasks"
+  - "Navigate and refactor large codebases effectively"
+  - "Handle edge cases and debug with AI assistance"
+lessons:
+  - id: effective-prompting
+    order: 1
+  - id: task-decomposition
+    order: 2
