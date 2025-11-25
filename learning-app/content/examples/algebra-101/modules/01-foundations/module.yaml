@@ -1,0 +1,12 @@
+id: foundations
+title: "Foundations"
+description: "Build a solid foundation in algebraic thinking. Learn about numbers, operations, variables, and basic notation that form the building blocks of all algebra."
+order: 1
+estimated_hours: 4
+objectives:
+  - "Develop strong number sense with integers, fractions, and decimals"
+  - "Understand the role of variables in representing unknown quantities"
+  - "Master the order of operations and basic algebraic notation"
+lessons:
+  - id: number-sense
+    order: 1

@@ -1,0 +1,23 @@
+id: algebra-101
+title: "Algebra 101"
+description: "Master the foundations of algebra through clear explanations, worked examples, and hands-on practice. Perfect for beginners or anyone looking to refresh their understanding of algebraic concepts."
+level: beginner
+tags:
+  - math
+  - algebra
+  - fundamentals
+estimated_hours: 12
+prerequisites:
+  - basic-arithmetic
+  - fractions-and-decimals
+outcomes:
+  - "Understand and manipulate algebraic expressions with confidence"
+  - "Solve linear equations and inequalities systematically"
+  - "Apply algebraic reasoning to real-world problems"
+  - "Recognize patterns and relationships using variables"
+modules:
+  - id: foundations
+    order: 1
+version: "1.0.0"
+created_at: "2025-01-15T00:00:00Z"
+updated_at: "2025-01-15T00:00:00Z"

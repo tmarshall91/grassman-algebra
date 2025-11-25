@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://learn-anything.org/schema/step.schema.json",
+  "title": "Learning Step",
+  "description": "An atomic unit of instruction within a lesson",
+  "oneOf": [
+    {
+      "title": "Markdown Step",
+      "description": "Steps rendered from markdown content (hook, concept, example, reflection)",
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the step"
+        },
+        "type": {
+          "type": "string",
+          "description": "Type of step",
+          "enum": ["hook", "concept", "example", "reflection"]
+        },
+        "estimated_minutes": {
+          "type": "integer",
+          "description": "Estimated minutes to complete this step",
+          "minimum": 1
+        },
+        "body_markdown": {
+          "type": "string",
+          "description": "The main content in markdown format"
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional title for the step"
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Additional metadata for the step",
+          "additionalProperties": true
+        }
+      }
+    },
+    {
+      "title": "Exercise or Quiz Step",
+      "description": "Interactive steps with questions and answers",
+      "type": "object",
+      "required": ["id", "type", "questions"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the step"
+        },
+        "type": {
+          "type": "string",
+          "description": "Type of step",
+          "enum": ["exercise", "quiz"]
+        },
+        "estimated_minutes": {
+          "type": "integer",
+          "description": "Estimated minutes to complete this step",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional title for the exercise/quiz"
+        },
+        "instructions": {
+          "type": "string",
+          "description": "Instructions in markdown format"
+        },
+        "questions": {
+          "type": "array",
+          "description": "List of questions",
+          "items": {
+            "type": "object",
+            "required": ["id", "prompt_markdown", "answer_index"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Unique identifier for the question"
+              },
+              "prompt_markdown": {
+                "type": "string",
+                "description": "Question prompt in markdown format"
+              },
+              "type": {
+                "type": "string",
+                "description": "Question type",
+                "enum": ["multiple-choice", "true-false", "short-answer"],
+                "default": "multiple-choice"
+              },
+              "options": {
+                "type": "array",
+                "description": "Answer options (required for multiple-choice)",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 2
+              },
+              "answer_index": {
+                "type": "integer",
+                "description": "Zero-indexed position of correct answer in options array",
+                "minimum": 0
+              },
+              "explanation_markdown": {
+                "type": "string",
+                "description": "Explanation of the correct answer in markdown format"
+              },
+              "hint": {
+                "type": "string",
+                "description": "Optional hint to help learners"
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "difficulty": {
+          "type": "string",
+          "description": "Difficulty level of this exercise",
+          "enum": ["easy", "medium", "hard", "challenge"]
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Additional metadata for the step",
+          "additionalProperties": true
+        }
+      }
+    }
+  ]
+}

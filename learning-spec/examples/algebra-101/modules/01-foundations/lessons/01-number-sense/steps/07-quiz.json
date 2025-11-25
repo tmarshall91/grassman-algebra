@@ -1,0 +1,48 @@
+{
+  "id": "quiz",
+  "type": "quiz",
+  "estimated_minutes": 5,
+  "title": "Number Sense Quiz",
+  "instructions": "This quiz checks your understanding of the key concepts from this lesson. Choose the best answer for each question.",
+  "questions": [
+    {
+      "id": "q-1",
+      "prompt_markdown": "Which statement best describes the relationship between fractions, decimals, and integers?",
+      "type": "multiple-choice",
+      "options": [
+        "They are completely different types of numbers that cannot be compared",
+        "They are different ways to represent quantities on the same number line",
+        "Decimals are always larger than fractions",
+        "Integers can only be expressed as whole numbers, never as fractions"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "**Correct!** Fractions, decimals, and integers are all different **notations** for representing quantities, but they all exist on the same number line. \n\nFor example:\n- The integer 1 can be written as 1/1 or 1.0\n- The fraction 1/2 can be written as 0.5\n- The decimal 0.75 can be written as 3/4\n\nThis is one of the key insights of number sense: these different forms are interchangeable tools, and you can choose whichever is most convenient for your purpose."
+    },
+    {
+      "id": "q-2",
+      "prompt_markdown": "You need to compare these values: **3/5**, **0.55**, and **1/2**. Which is the correct ordering from smallest to largest?",
+      "type": "multiple-choice",
+      "options": [
+        "1/2, 0.55, 3/5",
+        "0.55, 1/2, 3/5",
+        "3/5, 0.55, 1/2",
+        "1/2, 3/5, 0.55"
+      ],
+      "answer_index": 0,
+      "explanation_markdown": "**Correct!** Let's convert to decimals:\n\n- 3/5 = 3 ÷ 5 = **0.6**\n- 0.55 = **0.55**\n- 1/2 = 1 ÷ 2 = **0.5**\n\nOrdering from smallest to largest:\n- 0.5 < 0.55 < 0.6\n- Therefore: **1/2, 0.55, 3/5**\n\nThis demonstrates the objective of comparing and ordering numbers of different types. When you can convert between forms, comparison becomes straightforward!"
+    },
+    {
+      "id": "q-3",
+      "prompt_markdown": "Which of the following represents the **same quantity** as 0.8?",
+      "type": "multiple-choice",
+      "options": [
+        "1/8",
+        "8/100",
+        "4/5",
+        "8/9"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**Correct!** 4/5 equals 0.8.\n\nHere's why:\n- 4 ÷ 5 = **0.8** ✓\n\nLet's check the others:\n- 1/8 = 0.125 ✗\n- 8/100 = 0.08 ✗ (note the decimal place!)\n- 8/9 = 0.888... ✗\n\nThis tests your ability to recognize **equivalent representations** of the same quantity—a core skill in number sense. Whether you see 0.8, 4/5, or 80%, you should recognize them all as the same value.\n\n**Memory trick**: Think of 4/5 as \"four fifths\" which is close to a whole (5/5), just like 0.8 is close to 1.0."
+    }
+  ]
+}

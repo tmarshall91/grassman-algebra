@@ -1,0 +1,38 @@
+{
+  "id": "challenge",
+  "type": "exercise",
+  "estimated_minutes": 5,
+  "title": "Challenge Problems",
+  "instructions": "These problems require deeper thinking. Use what you've learned about number relationships and don't be afraid to try multiple approaches.",
+  "difficulty": "challenge",
+  "questions": [
+    {
+      "id": "ch-1",
+      "prompt_markdown": "Arrange these numbers in order from **smallest to largest**:\n\n**5/8, 0.6, 2/3, 0.65**\n\nWhich is the correct order?",
+      "type": "multiple-choice",
+      "options": [
+        "0.6, 5/8, 0.65, 2/3",
+        "5/8, 0.6, 2/3, 0.65",
+        "2/3, 0.65, 5/8, 0.6",
+        "0.6, 0.65, 5/8, 2/3"
+      ],
+      "answer_index": 0,
+      "explanation_markdown": "Let's convert everything to decimals for easy comparison:\n\n- 5/8 = 5 ÷ 8 = **0.625**\n- 0.6 = **0.6** (or 0.600)\n- 2/3 = 2 ÷ 3 = **0.666...** (repeating)\n- 0.65 = **0.65** (or 0.650)\n\nNow compare:\n- 0.600 < 0.625 < 0.650 < 0.666...\n\nSo the order is: **0.6, 5/8, 0.65, 2/3**\n\n**Pro tip**: Notice these are all close together (between 0.6 and 0.67). When numbers are close, you need to look carefully at the decimal places!",
+      "hint": "Convert all numbers to decimals with at least 3 decimal places to see the differences clearly"
+    },
+    {
+      "id": "ch-2",
+      "prompt_markdown": "A recipe calls for 2/3 cup of sugar, but you only have a measuring cup marked in decimals. You need to fill it to approximately which decimal value?",
+      "type": "multiple-choice",
+      "options": [
+        "0.5 cups",
+        "0.6 cups",
+        "0.67 cups",
+        "0.75 cups"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "To convert 2/3 to a decimal:\n\n2 ÷ 3 = **0.666...** (the 6 repeats forever)\n\nRounded to two decimal places, this is approximately **0.67 cups**.\n\n**Why this matters in real life:**\n- 0.5 would be too little (that's only 1/2)\n- 0.6 is close but still a bit short\n- **0.67 is the best approximation**\n- 0.75 would be too much (that's 3/4)\n\nWhen cooking, 0.67 is close enough to 2/3 that your recipe will turn out fine!\n\n**Number sense check**: 2/3 should be more than half (0.5) but less than three-quarters (0.75), and 0.67 fits that expectation perfectly.",
+      "hint": "Divide 2 by 3 and round to a reasonable number of decimal places"
+    }
+  ]
+}

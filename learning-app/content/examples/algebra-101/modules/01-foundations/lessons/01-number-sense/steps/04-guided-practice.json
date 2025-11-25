@@ -1,0 +1,52 @@
+{
+  "id": "guided-practice",
+  "type": "exercise",
+  "estimated_minutes": 7,
+  "title": "Guided Practice",
+  "instructions": "Try these problems to practice converting and comparing numbers. Take your time and think about the relationships between different number forms.",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "gp-1",
+      "prompt_markdown": "Convert the fraction **1/2** to a decimal.",
+      "type": "multiple-choice",
+      "options": [
+        "0.25",
+        "0.5",
+        "0.75",
+        "2.0"
+      ],
+      "answer_index": 1,
+      "explanation_markdown": "To convert 1/2 to a decimal, divide 1 by 2: **1 ÷ 2 = 0.5**. You can also think of this as \"one half\" which is 0.5 or 50% of a whole.",
+      "hint": "Think about dividing 1 by 2, or remember that 'half' means 50%"
+    },
+    {
+      "id": "gp-2",
+      "prompt_markdown": "Which of these numbers is **largest**?\n\n- A) 0.3\n- B) 1/4\n- C) 0.4\n- D) 2/10",
+      "type": "multiple-choice",
+      "options": [
+        "A) 0.3",
+        "B) 1/4",
+        "C) 0.4",
+        "D) 2/10"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "Let's convert everything to decimals:\n- A) 0.3 stays as 0.3\n- B) 1/4 = 1 ÷ 4 = **0.25**\n- C) 0.4 stays as 0.4\n- D) 2/10 = 2 ÷ 10 = **0.2**\n\nComparing: 0.2 < 0.25 < 0.3 < **0.4**\n\nSo **0.4** is the largest. On a number line, it would be furthest to the right.",
+      "hint": "Convert all numbers to the same form (decimals work well here) and compare"
+    },
+    {
+      "id": "gp-3",
+      "prompt_markdown": "The decimal **0.75** is equivalent to which fraction?",
+      "type": "multiple-choice",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "answer_index": 2,
+      "explanation_markdown": "**0.75 = 3/4**. Here's why:\n\n- 0.75 means 75 hundredths, or 75/100\n- Simplify by dividing both numerator and denominator by 25: 75÷25 / 100÷25 = **3/4**\n\nYou can verify: 3 ÷ 4 = 0.75 ✓\n\nYou can also think of it as \"three quarters\" or 75%.",
+      "hint": "Think about what 0.75 means as a percentage. What common fraction equals 75%?"
+    }
+  ]
+}

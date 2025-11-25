@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://learn-anything.org/schema/program.schema.json",
+  "title": "Learning Program",
+  "description": "A complete learning program covering a broad topic or skill area",
+  "type": "object",
+  "required": ["id", "title", "description", "level", "modules"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the program (kebab-case)",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable program title",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the program covers",
+      "minLength": 1
+    },
+    "level": {
+      "type": "string",
+      "description": "Target difficulty level",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags for categorization and search",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "estimated_hours": {
+      "type": "number",
+      "description": "Estimated hours to complete the entire program",
+      "minimum": 0
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "List of prerequisite program IDs or skill names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "Learning outcomes - what learners will be able to do",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "modules": {
+      "type": "array",
+      "description": "Ordered list of modules in this program",
+      "items": {
+        "type": "object",
+        "required": ["id", "order"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Module identifier (matches module.yaml id)"
+          },
+          "order": {
+            "type": "integer",
+            "description": "Sequential order (1-indexed)",
+            "minimum": 1
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "authors": {
+      "type": "array",
+      "description": "Content creators",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the program content"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

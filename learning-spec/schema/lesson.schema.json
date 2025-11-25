@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://learn-anything.org/schema/lesson.schema.json",
+  "title": "Learning Lesson",
+  "description": "A focused learning unit covering a specific concept or skill",
+  "type": "object",
+  "required": ["id", "slug", "title", "summary", "level", "steps"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the lesson (kebab-case)",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug for the lesson",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable lesson title",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "description": "Brief summary of what the lesson covers",
+      "minLength": 1
+    },
+    "level": {
+      "type": "string",
+      "description": "Target difficulty level",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags for categorization",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "description": "Estimated minutes to complete the lesson",
+      "minimum": 1
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "List of prerequisite lesson IDs or concepts",
+      "items": {
+        "type": "string"
+      }
+    },
+    "objectives": {
+      "type": "array",
+      "description": "Specific learning objectives for this lesson",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "canonical_flow": {
+      "type": "object",
+      "description": "Defines the pedagogical flow pattern for this lesson",
+      "required": ["pattern"],
+      "properties": {
+        "pattern": {
+          "type": "string",
+          "description": "Hyphen-separated sequence of step types",
+          "examples": ["hook-concept-example-guided-practice-challenge-reflection-quiz"]
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "description": "Ordered list of steps in this lesson",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "file"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Step identifier"
+          },
+          "type": {
+            "type": "string",
+            "description": "Type of step",
+            "enum": ["hook", "concept", "example", "exercise", "quiz", "reflection"]
+          },
+          "file": {
+            "type": "string",
+            "description": "Relative path to the step content file"
+          },
+          "difficulty": {
+            "type": "string",
+            "description": "Optional difficulty indicator for exercises",
+            "enum": ["easy", "medium", "hard", "challenge"]
+          },
+          "order": {
+            "type": "integer",
+            "description": "Sequential order (1-indexed)",
+            "minimum": 1
+          }
+        }
+      },
+      "minItems": 1
+    }
+  }
+}
