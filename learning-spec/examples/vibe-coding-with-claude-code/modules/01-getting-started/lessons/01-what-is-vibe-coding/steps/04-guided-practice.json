@@ -1,0 +1,33 @@
+{
+  "id": "guided-practice",
+  "type": "exercise",
+  "difficulty": "easy",
+  "estimated_minutes": 8,
+  "title": "Identify Vibe Coding Opportunities",
+  "instructions": "Review these common coding scenarios and identify which aspects could benefit most from vibe coding. Consider: What's causing friction? Where is flow state interrupted? What requires repetitive mental effort?",
+  "exercises": [
+    {
+      "id": "scenario-1",
+      "prompt": "**Scenario 1**: Sarah needs to add authentication to her app. She's never implemented OAuth before and needs to:\n- Research OAuth flow\n- Find a library\n- Read documentation\n- Implement token handling\n- Add error cases\n- Test the flow\n\n**Question**: What aspects of this task are best suited for vibe coding?\n\n**Options**:\nA) Only the research phase\nB) Implementation and testing, but not architecture decisions\nC) Everything except final security review\nD) None - security code should always be hand-written",
+      "answer": "C",
+      "explanation": "Vibe coding excels at: generating implementation code, handling boilerplate, creating test cases, and explaining OAuth concepts. However, you should still review security-critical code carefully and understand the auth flow. Option C is correct because AI can help with implementation and testing, but final security review should be done by a human expert."
+    },
+    {
+      "id": "scenario-2",
+      "prompt": "**Scenario 2**: Marcus is refactoring a 500-line component into smaller, reusable pieces. He needs to:\n- Identify logical boundaries\n- Extract components\n- Update props and state management\n- Ensure nothing breaks\n- Update all imports\n\n**Question**: How should Marcus approach this with vibe coding?\n\n**Options**:\nA) Do it all manually - refactoring is too risky for AI\nB) Ask AI to identify boundaries, then manually extract each component\nC) Describe the desired component structure and let AI refactor, then review changes carefully\nD) Have AI rewrite the entire thing from scratch",
+      "answer": "C",
+      "explanation": "Vibe coding is excellent for refactoring! AI can handle the mechanical work of extracting components, updating imports, and maintaining functionality. The key is to clearly describe your desired architecture, let AI do the refactor, then carefully review the changes. Option C balances AI's strengths (mechanical refactoring) with human strengths (architectural decisions and verification)."
+    },
+    {
+      "id": "scenario-3",
+      "prompt": "**Scenario 3**: Lisa wants to learn Rust by building a CLI tool. She knows the tool's purpose but has zero Rust experience.\n\n**Question**: What's the best vibe coding strategy for Lisa?\n\n**Options**:\nA) Read a Rust book first, then use AI for syntax help\nB) Ask AI to build the entire tool, then study the code\nC) Iteratively build features with AI, asking for explanations of each Rust concept as it appears\nD) Avoid AI when learning - it prevents real understanding",
+      "answer": "C",
+      "explanation": "The best learning approach with vibe coding is interactive and iterative. Build features incrementally, ask AI to explain Rust concepts as they appear in your actual code, and learn by doing. This creates a tight feedback loop where you see concepts applied immediately. Option C combines building (practical) with learning (conceptual) in the most effective way."
+    }
+  ],
+  "hints": [
+    "Think about where context switching happens in traditional coding",
+    "Consider what requires creative judgment vs mechanical execution",
+    "Remember: vibe coding augments your skills, doesn't replace them"
+  ]
+}

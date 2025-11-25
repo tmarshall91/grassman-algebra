@@ -1,0 +1,33 @@
+{
+  "id": "challenge",
+  "type": "exercise",
+  "difficulty": "challenge",
+  "estimated_minutes": 10,
+  "title": "Design Your Vibe Coding Workflow",
+  "instructions": "These scenarios require deeper thinking about how to effectively integrate vibe coding into real development workflows. Consider the principles you've learned and think about trade-offs.",
+  "exercises": [
+    {
+      "id": "challenge-1",
+      "prompt": "**Complex Scenario**: You're building a real-time chat application with:\n- WebSocket connections\n- Message persistence\n- User presence tracking\n- Rich text editing\n- File uploads\n\nYou have 2 weeks. How do you structure your vibe coding approach?\n\n**Question**: What's the most effective strategy?\n\n**Options**:\nA) Ask AI to generate the entire app at once, then debug\nB) Build each feature sequentially with AI, testing as you go\nC) Design the architecture yourself, use AI for implementing specific features, iterate on integration\nD) Use AI only for boilerplate, write all core logic manually",
+      "answer": "C",
+      "explanation": "For complex projects, the winning strategy is: **you design the architecture**, AI helps implement features, you integrate and iterate. This approach:\n- Keeps you in the architect role (crucial for complex systems)\n- Leverages AI for feature implementation (saves time)\n- Maintains your understanding of the whole system\n- Allows course correction as you discover issues\n\nOption B could work but lacks upfront architectural thinking. Options A and D don't properly leverage the collaboration model."
+    },
+    {
+      "id": "challenge-2",
+      "prompt": "**Team Scenario**: Your team of 5 developers wants to adopt vibe coding. Some are skeptical, worried about:\n- Code quality consistency\n- Knowledge gaps if AI writes too much\n- Debugging AI-generated code\n- Learning for junior developers\n\n**Question**: What's the best way to introduce vibe coding to the team?\n\n**Options**:\nA) Mandate everyone uses it for all tasks immediately\nB) Ban it until everyone agrees\nC) Start with low-risk tasks (tests, docs, refactoring), establish review practices, share learnings\nD) Only allow senior developers to use it",
+      "answer": "C",
+      "explanation": "Successful team adoption requires:\n- **Start low-risk**: Tests, documentation, and refactoring are perfect starting points\n- **Build confidence**: Teams see value without high stakes\n- **Establish practices**: Code review catches issues, knowledge sharing spreads techniques\n- **Learn together**: Share what works, what doesn't\n\nThis gradual approach addresses concerns (quality, knowledge, debugging) while building team capability. Option C respects team dynamics while fostering adoption."
+    },
+    {
+      "id": "challenge-3",
+      "prompt": "**Meta Question**: A developer says: \"Vibe coding makes me feel like I'm not really programming anymore. The AI does all the work and I just review code. I'm worried I'm losing my edge.\"\n\nHow would you respond?\n\n**Options**:\nA) \"You're right, you should write more code manually to stay sharp\"\nB) \"That feeling means you're focusing on higher-level thinking - that's the point\"\nC) \"The AI is just a tool, you're still making all the important decisions\"\nD) \"Both B and C are true - your role is evolving, not diminishing\"",
+      "answer": "D",
+      "explanation": "This is a crucial mindset shift. The truth is:\n- **Your role IS evolving**: From syntax-writer to architect/designer\n- **Higher-level thinking is harder**: System design, architecture, trade-offs require more skill than syntax\n- **You're the decision maker**: AI suggests, you decide and verify\n- **Your edge sharpens differently**: Faster iteration means more practice at design, more exposure to patterns\n\nCompare it to: spreadsheets didn't make accountants worse at math, they freed accountants to do higher-level financial analysis. Same principle here. Option D captures both aspects."
+    }
+  ],
+  "hints": [
+    "Think about collaboration, not automation",
+    "Consider what humans do better than AI (and vice versa)",
+    "Remember: the goal is better software and better developers, not just faster code"
+  ]
+}

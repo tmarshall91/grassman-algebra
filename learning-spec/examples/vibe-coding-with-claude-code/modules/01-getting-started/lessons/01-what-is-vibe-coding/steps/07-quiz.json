@@ -1,0 +1,106 @@
+{
+  "id": "quiz",
+  "type": "quiz",
+  "estimated_minutes": 6,
+  "title": "Vibe Coding Fundamentals Quiz",
+  "instructions": "Test your understanding of vibe coding concepts. Choose the best answer for each question.",
+  "passing_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the primary goal of vibe coding?",
+      "options": [
+        "To have AI write all your code automatically",
+        "To maintain flow state by focusing on intent while AI handles implementation",
+        "To eliminate the need to understand code",
+        "To make developers obsolete"
+      ],
+      "correct": 1,
+      "explanation": "Vibe coding is about maintaining flow state and focusing on high-level intent and architecture, while AI assists with implementation details. It's collaboration, not automation."
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is NOT a core principle of vibe coding?",
+      "options": [
+        "Stay in dialog mode with AI",
+        "Think in systems, not just lines of code",
+        "Never question or modify AI-generated code",
+        "Verify suggestions rather than memorize syntax"
+      ],
+      "correct": 2,
+      "explanation": "You should ALWAYS review and verify AI-generated code. Blindly accepting suggestions without understanding them defeats the purpose of vibe coding and can lead to bugs or security issues."
+    },
+    {
+      "id": "q3",
+      "question": "What does 'flow state' mean in the context of vibe coding?",
+      "options": [
+        "Writing code as fast as possible",
+        "Continuous creative focus without context-switching interruptions",
+        "Following a strict workflow process",
+        "Using AI for every single line of code"
+      ],
+      "correct": 1,
+      "explanation": "Flow state is when you're deeply focused and creative work happens naturally, without interruptions. Vibe coding maintains flow by minimizing context switches (like googling syntax or reading docs)."
+    },
+    {
+      "id": "q4",
+      "question": "When comparing traditional coding to vibe coding, the main difference in mental focus is:",
+      "options": [
+        "Traditional: high-level architecture, Vibe: syntax details",
+        "Traditional: syntax and implementation, Vibe: intent and architecture",
+        "Traditional: testing, Vibe: building",
+        "There is no difference in mental focus"
+      ],
+      "correct": 1,
+      "explanation": "Traditional coding often requires heavy focus on syntax, API details, and implementation mechanics. Vibe coding shifts focus to higher-level concerns: what you want to build, how it should work, architectural decisions."
+    },
+    {
+      "id": "q5",
+      "question": "Vibe coding is MOST effective for:",
+      "options": [
+        "Only building simple CRUD apps",
+        "Rapid prototyping, learning new tech, refactoring, and generating tests",
+        "Only documentation and comments",
+        "Performance optimization and low-level systems programming"
+      ],
+      "correct": 1,
+      "explanation": "Vibe coding excels at rapid prototyping, learning, refactoring, testing, and documentation—tasks where iteration speed and staying in flow matter most. It's less suited for highly specialized performance optimization work."
+    },
+    {
+      "id": "q6",
+      "question": "What should you do when AI generates code you don't fully understand?",
+      "options": [
+        "Use it anyway, AI knows best",
+        "Immediately reject it and write it manually",
+        "Ask AI to explain the code and iterate until you understand",
+        "Copy it and hope it works"
+      ],
+      "correct": 2,
+      "explanation": "One of vibe coding's strengths is the learning loop! When you don't understand generated code, ask for explanations, request simpler alternatives, or have AI break it down step-by-step. Understanding is crucial."
+    },
+    {
+      "id": "q7",
+      "question": "True or False: In vibe coding, the developer's role becomes less important because AI does the work.",
+      "options": [
+        "True - AI handles most decisions",
+        "False - The developer's role evolves to focus on architecture, verification, and creative direction",
+        "True - Developers just review code now",
+        "False - Developers should avoid using AI tools"
+      ],
+      "correct": 1,
+      "explanation": "The developer's role doesn't diminish—it EVOLVES. You become more focused on architecture, design decisions, verification, and creative problem-solving. These are higher-level skills that require more expertise, not less."
+    },
+    {
+      "id": "q8",
+      "question": "The vibe coding rhythm is best described as:",
+      "options": [
+        "Write requirements → AI generates everything → Ship it",
+        "Express intent → Review → Ask questions → Refine → Verify",
+        "Google → Copy code → Paste → Debug",
+        "Plan → Code manually → Ask AI to review"
+      ],
+      "correct": 1,
+      "explanation": "The vibe coding rhythm is iterative: express what you want, review what's generated, ask questions to learn, refine through conversation, and verify the result. It's a collaborative loop, not a one-shot generation."
+    }
+  ]
+}

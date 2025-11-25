@@ -1,0 +1,15 @@
+id: getting-started
+title: "Getting Started with Vibe Coding"
+description: "Discover the fundamentals of vibe coding and how Claude Code transforms the development experience. Learn the mindset, setup, and basic workflows that enable joyful, productive coding sessions."
+order: 1
+estimated_hours: 3
+objectives:
+  - "Understand what vibe coding is and why it matters"
+  - "Set up Claude Code effectively in your development environment"
+  - "Learn the basic interaction patterns with Claude Code"
+  - "Experience your first flow state coding session"
+lessons:
+  - id: what-is-vibe-coding
+    order: 1
+  - id: setting-up-claude-code
+    order: 2

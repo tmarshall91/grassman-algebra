@@ -1,0 +1,31 @@
+id: vibe-coding-with-claude-code
+title: "Vibe Coding with Claude Code"
+description: "Master the art of vibe coding with Claude Code. Learn to harness AI-assisted development, maintain flow state, and build software faster and more joyfully than ever before. This course transforms how you think about coding and collaboration with AI."
+level: beginner
+tags:
+  - ai-assisted-development
+  - claude-code
+  - vibe-coding
+  - productivity
+  - flow-state
+  - pair-programming
+estimated_hours: 8
+prerequisites:
+  - basic-programming
+  - command-line-basics
+outcomes:
+  - "Understand the philosophy and principles of vibe coding"
+  - "Effectively collaborate with Claude Code as your AI pair programmer"
+  - "Maintain flow state while coding with AI assistance"
+  - "Apply best practices for prompting and task decomposition"
+  - "Build projects faster with confidence and joy"
+modules:
+  - id: getting-started
+    order: 1
+  - id: advanced-techniques
+    order: 2
+  - id: mastering-flow
+    order: 3
+version: "1.0.0"
+created_at: "2025-11-25T00:00:00Z"
+updated_at: "2025-11-25T00:00:00Z"
